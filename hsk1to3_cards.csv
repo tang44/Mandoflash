@@ -1,0 +1,1001 @@
+﻿#,Chinese,Pinyin,English,Part of Speech,First PoS,Level,Levels
+1,爱,ài,to love; to like; affection,动 v.,动 v.,1,1
+2,八,bā,eight,数 num.,数 num.,1,1
+3,爸爸,bàba,father; dad,名 n.,名 n.,1,1
+4,吧,ba,suggestion particle; add to end of sentence to make it a suggestion,助 part.,助 part.,1,1
+5,白天,báitiān,daytime; during the day; day,名 n.,名 n.,1,1
+6,百,bǎi,hundred,数 num.,数 num.,1,1
+7,半,bàn,half,数 num.; （副 adv.）,数 num.,1,1（4）
+8,包子,bāozi,bao,名 n.,名 n.,1,1
+9,杯子,bēizi,cup; glass,名 n.,名 n.,1,1
+10,本1,běn,measure word for books,量 m.w.,量 m.w.,1,1
+11,边,biān,side; edge; margin,名 n.; 后缀 suff.,名 n.,1,1
+12,病,bìng,illness; disease; to fall ill,名 n.; 动 v.,名 n.,1,1
+13,不,bù,no; not so; not,副 adv.,副 adv.,1,1
+14,不客气,búkèqi,you're welcome,叹 interj.,叹 interj.,1,1
+15,不要,búyào,don't!; must not,副 adv.,副 adv.,1,1
+16,菜,cài,dish; vegetable; cuisine,名 n.,名 n.,1,1
+17,茶,chá,tea; tea plant,名 n.,名 n.,1,1
+18,唱,chàng,to sing; to call loudly; to chant,动 v.,动 v.,1,1
+19,超市,chāoshì,supermarket,名 n.,名 n.,1,1
+20,车,chē,car; vehicle,名 n.,名 n.,1,1
+21,吃,chī,to eat; to consume; to eat at,动 v.,动 v.,1,1
+22,出租车,chūzūchē,taxi; rental car,名 n.,名 n.,1,1
+23,穿,chuān,to wear; to put on; to dress,动 v.,动 v.,1,1
+24,打电话,dǎdiànhuà,to make a phone call,动 v.,动 v.,1,1
+25,大,dà,big; large; great,形 adj.,形 adj.,1,1
+26,大家,dàjiā,everyone,代 pron.,代 pron.,1,1
+27,大学,dàxué,college; university,名 n.,名 n.,1,1
+28,大学生,dàxuéshēng,university student; college student,名 n.,名 n.,1,1
+29,到,dào,to reach; to arrive; to leave for,动 v.,动 v.,1,1
+30,的,de,s; linking particle,助 part.,助 part.,1,1
+31,第,dì,prefix for ordinal numbers,前缀 pref.,前缀 pref.,1,1
+32,弟弟,dìdi,younger brother,名 n.,名 n.,1,1
+33,点1,diǎn,o'clock; point,量 m.w.; （名 n.）,量 m.w.,1,1（3）
+34,店,diàn,inn; old-style hotel; shop,名 n.,名 n.,1,1
+35,电话,diànhuà,telephone; phone call; phone number,名 n.,名 n.,1,1
+36,电脑,diànnǎo,computer,名 n.,名 n.,1,1
+37,电视,diànshì,television; TV,名 n.,名 n.,1,1
+38,电影,diànyǐng,movie; film,名 n.,名 n.,1,1
+39,电影院,diànyǐngyuàn,cinema; movie theater,名 n.,名 n.,1,1
+40,东西,dōngxi,thing; stuff; person,名 n.,名 n.,1,1
+41,都,dōu,all; both; entirely,副 adv.,副 adv.,1,1
+42,读,dú,to read out; to read aloud; to read,动 v.,动 v.,1,1
+43,读书,dúshū,to read a book; to study; to attend school,动 v.,动 v.,1,1
+44,对,duì,correct; toward,形 adj.; 介 prep.; （动 v.; 量 m.w.）,形 adj.,1,1（4）
+45,对不起,duìbuqǐ,I'm sorry; excuse me; I beg your pardon,动 v.,动 v.,1,1
+46,多,duō,many; much; too many,形 adj.; 动 v.; 代 pron.; （数 num.; 副 adv.）,形 adj.,1,1（2）
+47,多少,duōshao,how many; how much,代 pron.,代 pron.,1,1
+48,儿子,érzi,son,名 n.,名 n.,1,1
+49,二,èr,two; 2,数 num.,数 num.,1,1
+50,饭,fàn,cooked rice; meal; fan,名 n.,名 n.,1,1
+51,饭店,fàndiàn,restaurant; hotel,名 n.,名 n.,1,1
+52,房间,fángjiān,room,名 n.,名 n.,1,1
+53,非常,fēicháng,very; really; unusual,副 adv.,副 adv.,1,1
+54,飞机,fēijī,airplane,名 n.,名 n.,1,1
+55,分,fēn,minute; point,量 m.w.; （动 v.; 名 n.）,量 m.w.,1,1（3）
+56,分钟,fēnzhōng,minute,量 m.w.,量 m.w.,1,1
+57,高兴,gāoxìng,happy; glad; willing,形 adj.,形 adj.,1,1
+58,歌,gē,song; to sing,名 n.,名 n.,1,1
+59,哥哥,gēge,older brother,名 n.,名 n.,1,1
+60,个,gè,general measure word,量 m.w.,量 m.w.,1,1
+61,给,gěi,to give; to,动 v.; （介 prep.）,动 v.,1,1（2）
+62,公司,gōngsī,company; firm; corporation,名 n.,名 n.,1,1
+63,工作,gōngzuò,to work; to operate; job,动 v.; 名 n.,动 v.,1,1
+64,狗,gǒu,dog,名 n.,名 n.,1,1
+65,贵,guì,expensive; noble; precious,形 adj.,形 adj.,1,1
+66,国,guó,country,名 n.,名 n.,1,1
+67,还,hái,to return; to give back,副 adv.,副 adv.,1,1
+68,孩子,háizi,child,名 n.,名 n.,1,1
+69,汉语,Hànyǔ,Chinese language,名 n.,名 n.,1,1
+70,汉字,Hànzì,Chinese character,名 n.,名 n.,1,1
+71,好,hǎo,good; appropriate; proper,形 adj.; （副 adv.）; （动 v.）,形 adj.,1,1（2）（4）
+72,好吃,hǎochī,tasty; delicious,形 adj.,形 adj.,1,1
+73,好看,hǎokàn,good-looking; nice,形 adj.,形 adj.,1,1
+74,好听,hǎotīng,pleasant to hear,形 adj.,形 adj.,1,1
+75,好玩儿,hǎowánr,fun; interesting,形 adj.,形 adj.,1,1
+76,号,hào,number; day of the month,名 n.; 量 m.w.,名 n.,1,1
+77,喝,hē,to shout,动 v.,动 v.,1,1
+78,和1,hé,and; with,介 prep.; 连 conj.,介 prep.,1,1
+79,很,hěn,quite; very; awfully,副 adv.,副 adv.,1,1
+80,后,hòu,empress; queen; monarch,名 n.,名 n.,1,1
+81,回,huí,measure word for acts of a play,动 v.; （量 m.w.）,动 v.,1,1（3）
+82,会1,huì,can; to know how to,动 v.,动 v.,1,1
+83,火车,huǒchē,train,名 n.,名 n.,1,1
+84,鸡蛋,jīdàn,egg; hen's egg,名 n.,名 n.,1,1
+85,几,jǐ,how much; how many; several,代 pron.; 数 num.,代 pron.,1,1
+86,家,jiā,family; home; measure word for households or businesses,名 n.; 量 m.w.; （后缀 suff.）,名 n.,1,1（3）
+87,家人,jiārén,family member; servant,名 n.,名 n.,1,1
+88,见,jiàn,to see; to meet; to appear,动 v.,动 v.,1,1
+89,件,jiàn,measure word for things; items of clothing,量 m.w.,量 m.w.,1,1
+90,饺子,jiǎozi,dumpling; pot-sticker,名 n.,名 n.,1,1
+91,叫,jiào,to shout; to call; to order,动 v.; （介 prep.）,动 v.,1,1（4）
+92,姐姐,jiějie,older sister,名 n.,名 n.,1,1
+93,今年,jīnnián,this year,名 n.,名 n.,1,1
+94,今天,jīntiān,today; at the present; now,名 n.,名 n.,1,1
+95,九,jiǔ,nine; 9,数 num.,数 num.,1,1
+96,觉得,juéde,to think; to feel,动 v.,动 v.,1,1
+97,开,kāi,to open; to start,动 v.,动 v.,1,1
+98,开车,kāichē,to drive a car,动 v.,动 v.,1,1
+99,看,kàn,to see; to look at; to read,动 v.,动 v.,1,1
+100,看病,kànbìng,to visit a doctor; to see a patient,动 v.,动 v.,1,1
+101,看见,kànjiàn,to see; to catch sight of,动 v.,动 v.,1,1
+102,可以,kěyǐ,can; may; possible,动 v.; 形 adj.,动 v.,1,1
+103,课,kè,subject; course; class,名 n.,名 n.,1,1
+104,口,kǒu,mouth; measure word for people,名 n.; 量 m.w.,名 n.,1,1
+105,块,kuài,yuan; piece,量 m.w.,量 m.w.,1,1
+106,来,lái,to come,动 v.,动 v.,1,1
+107,老师,lǎoshī,teacher,名 n.,名 n.,1,1
+108,了,le,completed-action particle; change-of-state particle,助 part.,助 part.,1,1
+109,冷,lěng,cold,形 adj.,形 adj.,1,1
+110,里,lǐ,lining; interior; inside,名 n.,名 n.,1,1
+111,两1,liǎng,two,数 num.,数 num.,1,1
+112,零,líng,zero; nought; zero sign,数 num.,数 num.,1,1
+113,六,liù,six; 6,数 num.,数 num.,1,1
+114,妈妈,māma,mama; mommy; mother,名 n.,名 n.,1,1
+115,吗,ma,question particle,助 part.,助 part.,1,1
+116,买,mǎi,to buy; to purchase,动 v.,动 v.,1,1
+117,卖,mài,to sell,动 v.,动 v.,1,1
+118,忙,máng,busy; hurriedly; to hurry,形 adj.; 动 v.,形 adj.,1,1
+119,猫,māo,cat; modem,名 n.,名 n.,1,1
+120,没关系,méiguānxi,it's okay; never mind,叹 interj.,叹 interj.,1,1
+121,没事,méishì,it's okay; nothing's wrong,动 v.,动 v.,1,1
+122,没有,méiyǒu,haven't; hasn't; doesn't exist,动 v.; 副 adv.,动 v.,1,1
+123,妹妹,mèimei,younger sister; young woman,名 n.,名 n.,1,1
+124,们,men,plural suffix,后缀 suff.,后缀 suff.,1,1
+125,米饭,mǐfàn,rice,名 n.,名 n.,1,1
+126,面包,miànbāo,bread,名 n.,名 n.,1,1
+127,面条儿,miàntiáor,noodles,名 n.,名 n.,1,1
+128,明年,míngnián,next year,名 n.,名 n.,1,1
+129,明天,míngtiān,tomorrow,名 n.,名 n.,1,1
+130,名字,míngzi,name,名 n.,名 n.,1,1
+131,哪,nǎ,which,代 pron.,代 pron.,1,1
+132,哪个,nǎge,which one,代 pron.,代 pron.,1,1
+133,哪里,nǎlǐ,where,代 pron.,代 pron.,1,1
+134,哪儿,nǎr,where,代 pron.,代 pron.,1,1
+135,哪些,nǎxiē,which ones,代 pron.,代 pron.,1,1
+136,那,nà,that; then,代 pron.; （连 conj.）,代 pron.,1,1（2）
+137,那边,nàbiān,there; that side,代 pron.,代 pron.,1,1
+138,那个,nàge,that one,代 pron.,代 pron.,1,1
+139,那里,nàlǐ,there,代 pron.,代 pron.,1,1
+140,那儿,nàr,there,代 pron.,代 pron.,1,1
+141,那些,nàxiē,those,代 pron.,代 pron.,1,1
+142,男,nán,male; man,形 adj.,形 adj.,1,1
+143,男朋友,nánpéngyou,boyfriend,名 n.,名 n.,1,1
+144,呢,ne,question/topic particle,助 part.,助 part.,1,1
+145,能,néng,can; to be able to; might possibly,动 v.,动 v.,1,1
+146,你,nǐ,you,代 pron.,代 pron.,1,1
+147,你好,nǐhǎo,hello,叹 interj.,叹 interj.,1,1
+148,你们,nǐmen,you (plural),代 pron.,代 pron.,1,1
+149,年,nián,year,名 n.; 量 m.w.,名 n.,1,1
+150,您,nín,you,代 pron.,代 pron.,1,1
+151,牛奶,niúnǎi,cow's milk,名 n.,名 n.,1,1
+152,女,nǚ,female; woman; daughter,形 adj.,形 adj.,1,1
+153,女儿,nǚ’ér,daughter,名 n.,名 n.,1,1
+154,女朋友,nǚpéngyou,girlfriend,名 n.,名 n.,1,1
+155,女士,nǚshì,lady; madam; 位,名 n.,名 n.,1,1
+156,朋友,péngyou,friend,名 n.,名 n.,1,1
+157,便宜,piányi,cheap; inexpensive; small advantages,形 adj.,形 adj.,1,1
+158,漂亮,piàoliang,pretty; beautiful,形 adj.,形 adj.,1,1
+159,苹果,píngguǒ,apple,名 n.,名 n.,1,1
+160,七,qī,seven; 7,数 num.,数 num.,1,1
+161,起床,qǐchuáng,to get out of bed; to get up,动 v.,动 v.,1,1
+162,千,qiān,thousand,数 num.,数 num.,1,1
+163,前,qián,front; forward; ahead,名 n.,名 n.,1,1
+164,钱,qián,money,名 n.,名 n.,1,1
+165,请,qǐng,to ask; to invite; please,动 v.,动 v.,1,1
+166,请问,qǐngwèn,Excuse me; may I ask...?,动 v.,动 v.,1,1
+167,去,qù,to go; to go to; last,动 v.,动 v.,1,1
+168,去年,qùnián,last year,名 n.,名 n.,1,1
+169,热,rè,to warm up; to heat up; hot,形 adj.,形 adj.,1,1
+170,人,rén,person; people,名 n.,名 n.,1,1
+171,认识,rènshi,to know; to recognize; to be familiar with,动 v.,动 v.,1,1
+172,日,rì,day; date; sun,量 m.w.; （名 n.）,量 m.w.,1,1（4）
+173,三,sān,three; 3,数 num.,数 num.,1,1
+174,商店,shāngdiàn,store; shop,名 n.,名 n.,1,1
+175,上,shàng,up; upper; above,名 n.; 动 v.,名 n.,1,1
+176,上班,shàngbān,to go to work,动 v.,动 v.,1,1
+177,上课,shàngkè,to go to class,动 v.,动 v.,1,1
+178,上午,shàngwǔ,morning,名 n.,名 n.,1,1
+179,上学,shàngxué,to go to school; to attend school,动 v.,动 v.,1,1
+180,少,shǎo,few; less; to lack,形 adj.; 动 v.,形 adj.,1,1
+181,谁,shéi/shuí,who,代 pron.,代 pron.,1,1
+182,什么,shénme,what,代 pron.,代 pron.,1,1
+183,生病,shēngbìng,to fall ill,动 v.,动 v.,1,1
+184,十,shí,ten; 10,数 num.,数 num.,1,1
+185,时候,shíhou,time; length of time; moment,名 n.,名 n.,1,1
+186,时间,shíjiān,time; period,名 n.,名 n.,1,1
+187,事,shì,matter; thing; item,名 n.,名 n.,1,1
+188,是,shì,to be,动 v.,动 v.,1,1
+189,手机,shǒujī,cell phone; mobile phone,名 n.,名 n.,1,1
+190,书,shū,book; letter; document,名 n.,名 n.,1,1
+191,书店,shūdiàn,bookstore,名 n.,名 n.,1,1
+192,水,shuǐ,water; river; liquid,名 n.,名 n.,1,1
+193,水果,shuǐguǒ,fruit,名 n.,名 n.,1,1
+194,睡,shuì,to sleep; to lie down,动 v.,动 v.,1,1
+195,睡觉,shuìjiào,to go to bed; to sleep,动 v.,动 v.,1,1
+196,说,shuō,to speak; to talk; to say,动 v.,动 v.,1,1
+197,说话,shuōhuà,to speak; to say; to talk,动 v.,动 v.,1,1
+198,四,sì,four; 4,数 num.,数 num.,1,1
+199,岁,suì,years old,量 m.w.,量 m.w.,1,1
+200,他,tā,he; him,代 pron.,代 pron.,1,1
+201,它,tā,it,代 pron.,代 pron.,1,1
+202,她,tā,she; her,代 pron.,代 pron.,1,1
+203,他们,tāmen,they; them,代 pron.,代 pron.,1,1
+204,它们,tāmen,they; them,代 pron.,代 pron.,1,1
+205,她们,tāmen,they; them (female),代 pron.,代 pron.,1,1
+206,太,tài,highest; greatest; too,副 adv.,副 adv.,1,1
+207,天,tiān,day; sky,名 n.; 量 m.w.,名 n.,1,1
+208,天气,tiānqì,weather,名 n.,名 n.,1,1
+209,听,tīng,to listen to; to hear; to heed,动 v.,动 v.,1,1
+210,听见,tīngjiàn,to hear,动 v.,动 v.,1,1
+211,同学,tóngxué,classmate,名 n.,名 n.,1,1
+212,外,wài,outside; in addition; foreign,名 n.,名 n.,1,1
+213,外边,wàibian,outside; outer surface; abroad,名 n.,名 n.,1,1
+214,玩,wán,to play; to have fun,动 v.,动 v.,1,1
+215,晚,wǎn,evening; night; late,形 adj.,形 adj.,1,1
+216,晚饭,wǎnfàn,evening meal; dinner; supper,名 n.,名 n.,1,1
+217,晚上,wǎnshang,evening; night; in the evening,名 n.,名 n.,1,1
+218,喂1,wèi,hello? (on the phone),叹 interj.,叹 interj.,1,1
+219,问,wèn,to ask; to inquire,动 v.,动 v.,1,1
+220,问题,wèntí,question; problem; issue,名 n.,名 n.,1,1
+221,我,wǒ,I; me,代 pron.,代 pron.,1,1
+222,我们,wǒmen,we; us,代 pron.,代 pron.,1,1
+223,五,wǔ,five; 5,数 num.,数 num.,1,1
+224,午饭,wǔfàn,lunch,名 n.,名 n.,1,1
+225,喜欢,xǐhuan,to like,动 v.,动 v.,1,1
+226,下,xià,down; below; next,名 n.; 动 v.; 量 m.w.,名 n.,1,1
+227,下雨,xiàyǔ,to rain,动 v.,动 v.,1,1
+228,下班,xiàbān,to finish work; to get off work,动 v.,动 v.,1,1
+229,下课,xiàkè,class ends; to get out of class,动 v.,动 v.,1,1
+230,下午,xiàwǔ,afternoon; p.m.,名 n.,名 n.,1,1
+231,先生,xiānsheng,teacher; gentleman; sir,名 n.,名 n.,1,1
+232,现在,xiànzài,now; at present; at the moment,名 n.,名 n.,1,1
+233,想,xiǎng,to think; to think of; to devise,动 v.,动 v.,1,1
+234,小,xiǎo,small; tiny; few,形 adj.; 前缀 pref.,形 adj.,1,1
+235,小朋友,xiǎopéngyǒu,child,名 n.,名 n.,1,1
+236,小时,xiǎoshí,hour,名 n.,名 n.,1,1
+237,小学,xiǎoxué,elementary school; primary school,名 n.,名 n.,1,1
+238,小学生,xiǎoxuéshēng,elementary school student,名 n.,名 n.,1,1
+239,些,xiē,some; a few,量 m.w.,量 m.w.,1,1
+240,写,xiě,to write,动 v.,动 v.,1,1
+241,谢谢,xièxie,to thank; thanks; thank you,动 v.,动 v.,1,1
+242,新,xīn,new; newly; meso-,形 adj.,形 adj.,1,1
+243,星期,xīngqī,week; day of the week; Sunday,名 n.,名 n.,1,1
+244,星期日,xīngqīrì,Sunday,名 n.,名 n.,1,1
+245,星期天,xīngqītiān,Sunday,名 n.,名 n.,1,1
+246,休息,xiūxi,rest; to rest,动 v.,动 v.,1,1
+247,学,xué,to learn; to study; to imitate,动 v.,动 v.,1,1
+248,学生,xuéshēng,student; schoolchild,名 n.,名 n.,1,1
+249,学习,xuéxí,to learn; to study,动 v.,动 v.,1,1
+250,学校,xuéxiào,school,名 n.,名 n.,1,1
+251,雪,xuě,snow; to wipe away,名 n.,名 n.,1,1
+252,要,yào,to want; to need; to ask for,动 v.,动 v.,1,1
+253,也,yě,also; too,副 adv.,副 adv.,1,1
+254,一,yī,one; single; a,数 num.,数 num.,1,1
+255,衣服,yīfu,clothes,名 n.,名 n.,1,1
+256,医生,yīshēng,doctor,名 n.,名 n.,1,1
+257,医院,yīyuàn,hospital,名 n.,名 n.,1,1
+258,一半,yíbàn,half,数 num.,数 num.,1,1
+259,一下,yíxià,a bit; once,数量 qty. expr.; （副 adv.）,数量 qty. expr.,1,1（4）
+260,椅子,yǐzi,chair,名 n.,名 n.,1,1
+261,一点儿,yìdiǎnr,a little; a bit,数量 qty. expr.,数量 qty. expr.,1,1
+262,一些,yìxiē,some; a few,数量 qty. expr.,数量 qty. expr.,1,1
+263,有,yǒu,to have; there is; having,动 v.,动 v.,1,1
+264,有的,yǒude,some,代 pron.,代 pron.,1,1
+265,有点儿,yǒudiǎnr,slightly; a little; somewhat,副 adv.,副 adv.,1,1
+266,有些,yǒuxiē,some; somewhat,代 pron.; （副 adv.）,代 pron.,1,1（3）
+267,雨,yǔ,rain,名 n.,名 n.,1,1
+268,元,yuán,yuan,量 m.w.,量 m.w.,1,1
+269,月,yuè,moon; month; monthly,名 n.,名 n.,1,1
+270,再,zài,again; once more; re-,副 adv.,副 adv.,1,1
+271,在,zài,at; in; to be at,动 v.; 介 prep.; 副 adv.,动 v.,1,1
+272,再见,zàijiàn,goodbye; see you again later,动 v.,动 v.,1,1
+273,早,zǎo,early; morning; Good morning!,形 adj.,形 adj.,1,1
+274,早饭,zǎofàn,breakfast,名 n.,名 n.,1,1
+275,早上,zǎoshang,early morning,名 n.,名 n.,1,1
+276,怎么,zěnme,how,代 pron.,代 pron.,1,1
+277,怎么样,zěnmeyàng,how; how about,代 pron.,代 pron.,1,1
+278,找,zhǎo,to look for; to find,动 v.,动 v.,1,1
+279,这,zhè,this,代 pron.,代 pron.,1,1
+280,这边,zhèbiān,here; this side,代 pron.,代 pron.,1,1
+281,这个,zhège,this one,代 pron.,代 pron.,1,1
+282,这里,zhèlǐ,here,代 pron.,代 pron.,1,1
+283,这儿,zhèr,here,代 pron.,代 pron.,1,1
+284,这些,zhèxiē,these,代 pron.,代 pron.,1,1
+285,真,zhēn,really; truly; indeed,副 adv.; （形 adj.）,副 adv.,1,1（4）
+286,正在,zhèngzài,right now; in the middle of,副 adv.,副 adv.,1,1
+287,只,zhī,measure word for certain animals,量 m.w.,量 m.w.,1,1
+288,知道,zhīdào,to know,动 v.,动 v.,1,1
+289,中国,Zhōngguó,China,名 n.,名 n.,1,1
+290,中文,Zhōngwén,Chinese language,名 n.,名 n.,1,1
+291,中午,zhōngwǔ,noon; midday,名 n.,名 n.,1,1
+292,中学,zhōngxué,middle school,名 n.,名 n.,1,1
+293,中学生,zhōngxuéshēng,middle-school student; high school student,名 n.,名 n.,1,1
+294,住,zhù,to live; to dwell; to stay,动 v.,动 v.,1,1
+295,桌子,zhuōzi,table; desk,名 n.,名 n.,1,1
+296,字,zì,letter; symbol; character,名 n.,名 n.,1,1
+297,昨天,zuótiān,yesterday,名 n.,名 n.,1,1
+298,坐,zuò,to sit; to take,动 v.,动 v.,1,1
+299,做,zuò,to make; to produce; to write,动 v.,动 v.,1,1
+300,做饭,zuòfàn,to cook,动 v.,动 v.,1,1
+301,啊,a,ah; sentence particle,助 part.,助 part.,2,2
+302,爱好,àihào,to like; to enjoy; interest,动 v.; 名 n.,动 v.,2,2
+303,白色,báisè,white; fig. reactionary,名 n.,名 n.,2,2
+304,班,bān,class; shift; measure word for scheduled transport,名 n.; （量 m.w.）,名 n.,2,2（5）
+305,帮,bāng,to help; to assist; to support,动 v.,动 v.,2,2
+306,帮忙,bāngmáng,to help; to lend a hand; to do a favor,动 v.,动 v.,2,2
+307,包,bāo,bag; package; to wrap,动 v.; 名 n.; 量 m.w.,动 v.,2,2
+308,本子,běnzi,book; notebook; edition,名 n.,名 n.,2,2
+309,比,bǐ,than; to compare,动 v.; 介 prep.,动 v.,2,2
+310,笔,bǐ,pen; measure word for sums of money,名 n.; （量 m.w.）,名 n.,2,2（5）
+311,别1,bié,don't,副 adv.,副 adv.,2,2
+312,不错,búcuò,correct; right; not bad,形 adj.,形 adj.,2,2
+313,不好意思,bùhǎoyìsi,excuse me; sorry; embarrassed,叹 interj.,叹 interj.,2,2
+314,长,cháng,length; long; forever,形 adj.,形 adj.,2,2
+315,车站,chēzhàn,rail station; bus stop,名 n.,名 n.,2,2
+316,出,chū,to go out; to come out; to occur,动 v.,动 v.,2,2
+317,出国,chūguó,to go abroad; to leave the country,动 v.,动 v.,2,2
+318,出来,chūlái,to come out; to appear; to arise,动 v.,动 v.,2,2
+319,出门,chūmén,to go out; to leave home,动 v.,动 v.,2,2
+320,出去,chūqù,to go out,动 v.,动 v.,2,2
+321,床,chuáng,bed; couch; classifier for beds,名 n.,名 n.,2,2
+322,词,cí,word; statement; speech,名 n.,名 n.,2,2
+323,次,cì,measure word for enumerated events,量 m.w.; （形 adj.）,量 m.w.,2,2（7-9）
+324,从,cóng,from,介 prep.; （副 adv.）,介 prep.,2,2（4）
+325,从小,cóngxiǎo,from childhood; from a young age,副 adv.,副 adv.,2,2
+326,错,cuò,mistake; wrong; bad,形 adj.,形 adj.,2,2
+327,打1,dǎ,to hit; to do,动 v.,动 v.,2,2
+328,打车,dǎchē,to take a taxi; to hitch a lift,动 v.,动 v.,2,2
+329,打开,dǎkāi,to open; to show; to turn on,动 v.,动 v.,2,2
+330,但,dàn,but,连 conj.; （副 adv.）,连 conj.,2,2（7-9）
+331,但是,dànshì,but,连 conj.,连 conj.,2,2
+332,得,de,complement particle,助 part.,助 part.,2,2
+333,地,de,adverbial particle,助 part.,助 part.,2,2
+334,等1,děng,to wait; and so on,动 v.; （介 prep.）,动 v.,2,2（4）
+335,地铁,dìtiě,subway,名 n.,名 n.,2,2
+336,点2,diǎn,to order; dot; point,动 v.; （名 n.; 量 m.w.）,动 v.,2,2（4）
+337,懂,dǒng,to understand; to comprehend,动 v.,动 v.,2,2
+338,动,dòng,to move,动 v.,动 v.,2,2
+339,饭馆,fànguǎn,restaurant,名 n.,名 n.,2,2
+340,飞,fēi,to fly,动 v.,动 v.,2,2
+341,高,gāo,high; tall; above average,形 adj.; 名 n.,形 adj.,2,2
+342,高中,gāozhōng,high school,名 n.,名 n.,2,2
+343,告诉,gàosu,to tell; to inform; to let know,动 v.,动 v.,2,2
+344,个子,gèzi,height; stature; build,名 n.,名 n.,2,2
+345,跟,gēn,with; and,介 prep.; 连 conj.; （名 n.; 动 v.）,介 prep.,2,2（5）
+346,公交车,gōngjiāochē,public transport vehicle; town bus,名 n.,名 n.,2,2
+347,过,guò,experienced-action particle,动 v.,动 v.,2,2
+348,过来,guòlái,to come over; to manage; to handle,动 v.,动 v.,2,2
+349,过年,guònián,to celebrate the Chinese New Year,动 v.,动 v.,2,2
+350,过去1,guòqù,to go over; to pass,动 v.,动 v.,2,2
+351,过,guo,experienced-action particle,助 part.,助 part.,2,2
+352,还是,háishi,or; still,副 adv.; 连 conj.,副 adv.,2,2
+353,黑色,hēisè,black,名 n.,名 n.,2,2
+354,红茶,hóngchá,black tea,名 n.,名 n.,2,2
+355,红色,hóngsè,red; revolutionary,名 n.,名 n.,2,2
+356,后面,hòumiàn,the back; the rear; the last bit,名 n.,名 n.,2,2
+357,花1,huā,to spend,动 v.,动 v.,2,2
+358,花2,huā,flower,名 n.; （形 adj.）,名 n.,2,2（6）
+359,画,huà,to draw; to paint; picture,动 v.; 名 n.,动 v.,2,2
+360,坏,huài,bad; spoiled; broken,形 adj.,形 adj.,2,2
+361,回来,huílái,to return; to come back,动 v.,动 v.,2,2
+362,回去,huíqù,to return; to go back,动 v.,动 v.,2,2
+363,机场,jīchǎng,airport,名 n.,名 n.,2,2
+364,机票,jīpiào,air ticket; passenger ticket,名 n.,名 n.,2,2
+365,记得,jìde,to remember,动 v.,动 v.,2,2
+366,间,jiān,room; measure word for rooms,量 m.w.; （名 n.）,量 m.w.,2,2（4）
+367,教,jiāo,to teach,动 v.,动 v.,2,2
+368,教室,jiàoshì,classroom,名 n.,名 n.,2,2
+369,介绍,jièshào,to introduce,动 v.,动 v.,2,2
+370,进,jìn,to go forward; to advance; to go in,动 v.,动 v.,2,2
+371,近,jìn,near; close to; approximately,形 adj.,形 adj.,2,2
+372,进来,jìnlái,to come in,动 v.,动 v.,2,2
+373,进去,jìnqù,to go in,动 v.,动 v.,2,2
+374,经常,jīngcháng,frequently; constantly; regularly,副 adv.,副 adv.,2,2
+375,酒店,jiǔdiàn,wine shop; pub; hotel,名 n.,名 n.,2,2
+376,就,jiù,then; right away,副 adv.; （介 prep.）,副 adv.,2,2（7-9）
+377,咖啡,kāfēi,coffee,名 n.,名 n.,2,2
+378,开始,kāishǐ,to begin; beginning; to start,动 v.; 名 n.,动 v.,2,2
+379,开学,kāixué,school starts; semester begins,动 v.,动 v.,2,2
+380,考,kǎo,to check; to verify; to test,动 v.,动 v.,2,2
+381,考试,kǎoshì,to take an exam; exam,动 v.; 名 n.,动 v.,2,2
+382,可能,kěnéng,might; possible; probable,形 adj.; 名 n.; 动 v.,形 adj.,2,2
+383,裤子,kùzi,trousers; pants,名 n.,名 n.,2,2
+384,快,kuài,rapid; quick; speed,形 adj.; 副 adv.,形 adj.,2,2
+385,快乐,kuàilè,happy; joyful,形 adj.,形 adj.,2,2
+386,快要,kuàiyào,about to,副 adv.,副 adv.,2,2
+387,篮球,lánqiú,basketball,名 n.,名 n.,2,2
+388,累,lèi,tired; weary; to strain,形 adj.; 动 v.,形 adj.,2,2
+389,离,lí,from; away from,动 v.,动 v.,2,2
+390,里面,lǐmiàn,inside,名 n.,名 n.,2,2
+391,楼,lóu,building; floor,名 n.,名 n.,2,2
+392,路,lù,road; journey; route,名 n.,名 n.,2,2
+393,路上,lùshang,on the way; on the road,名 n.,名 n.,2,2
+394,旅游,lǚyóu,trip; journey; tourism,动 v.,动 v.,2,2
+395,绿茶,lǜchá,green tea,名 n.,名 n.,2,2
+396,绿色,lǜsè,green,名 n.; （形 adj.）,名 n.,2,2（4）
+397,慢,màn,slow,形 adj.,形 adj.,2,2
+398,没意思,méiyìsi,boring; not interesting,形 adj.,形 adj.,2,2
+399,每,měi,every,代 pron.; （副 adv.）,代 pron.,2,2（4）
+400,门,mén,gate; door; gateway,名 n.,名 n.,2,2
+401,门口,ménkǒu,doorway; gate,名 n.,名 n.,2,2
+402,门票,ménpiào,ticket,名 n.,名 n.,2,2
+403,面1,miàn,suffix: side; aspect,后缀 suff.; （动 v.; 名 n.; 量 m.w.）,后缀 suff.,2,2（5）
+404,名,míng,name; measure word for people,名 n.; 量 m.w.,名 n.,2,2
+405,拿,ná,to hold; to seize; to catch,动 v.,动 v.,2,2
+406,那么,nàme,so; that way,代 pron.; 连 conj.,代 pron.,2,2
+407,那样,nàyàng,that way; like that,代 pron.,代 pron.,2,2
+408,奶茶,nǎichá,milk tea,名 n.,名 n.,2,2
+409,奶奶,nǎinai,grandma,名 n.,名 n.,2,2
+410,男孩儿,nánháir,boy,名 n.,名 n.,2,2
+411,鸟,niǎo,bird,名 n.,名 n.,2,2
+412,女孩儿,nǚháir,girl,名 n.,名 n.,2,2
+413,旁边,pángbiān,side; adjacent place,名 n.,名 n.,2,2
+414,跑,pǎo,to run; to run away; to escape,动 v.,动 v.,2,2
+415,跑步,pǎobù,to run; to jog,动 v.,动 v.,2,2
+416,票,piào,ticket; ballot; banknote,名 n.,名 n.,2,2
+417,妻子,qīzi,wife,名 n.,名 n.,2,2
+418,起来,qǐlái,to get up; to stand up,动 v.,动 v.,2,2
+419,前面,qiánmiàn,ahead; in front; preceding,名 n.,名 n.,2,2
+420,晴,qíng,clear; fine,形 adj.,形 adj.,2,2
+421,球,qiú,ball; sphere; globe,名 n.,名 n.,2,2
+422,让,ràng,to let; to allow,动 v.; （介 prep.）,动 v.,2,2（4）
+423,肉,ròu,meat; flesh; pulp,名 n.,名 n.,2,2
+424,商场,shāngchǎng,shopping mall,名 n.,名 n.,2,2
+425,上来,shànglái,to come up,动 v.,动 v.,2,2
+426,上面,shàngmiàn,on top; above,名 n.,名 n.,2,2
+427,上去,shàngqù,to go up,动 v.,动 v.,2,2
+428,上网,shàngwǎng,to go online,动 v.,动 v.,2,2
+429,身体,shēntǐ,the body; one's health; in person,名 n.,名 n.,2,2
+430,生日,shēngrì,birthday,名 n.,名 n.,2,2
+431,时,shí,time; o'clock,名 n.; （量 m.w.）,名 n.,2,2（6）
+432,事情,shìqing,affair; matter; thing,名 n.,名 n.,2,2
+433,手,shǒu,hand,名 n.,名 n.,2,2
+434,手表,shǒubiǎo,wristwatch,名 n.,名 n.,2,2
+435,书包,shūbāo,schoolbag; satchel; bookbag,名 n.,名 n.,2,2
+436,舒服,shūfu,comfortable; feeling well,形 adj.,形 adj.,2,2
+437,送,sòng,to send; to deliver; to transmit,动 v.,动 v.,2,2
+438,虽然,suīrán,although,连 conj.,连 conj.,2,2
+439,所以,suǒyǐ,so; therefore,连 conj.,连 conj.,2,2
+440,疼,téng,hurts; sore; to love dearly,形 adj.; （动 v.）,形 adj.,2,2（6）
+441,踢,tī,to kick,动 v.,动 v.,2,2
+442,题,tí,question; problem,名 n.,名 n.,2,2
+443,条,tiáo,"measure word for long, thin things",量 m.w.; （名 n.）,量 m.w.,2,2（5）
+444,跳舞,tiàowǔ,to dance,动 v.,动 v.,2,2
+445,头,tóu,head; measure word for livestock,名 n.; （量 m.w.）; （形 adj.）,名 n.,2,2（3）（5）
+446,外国,wàiguó,foreign,名 n.,名 n.,2,2
+447,外面,wàimiàn,outside,名 n.,名 n.,2,2
+448,完,wán,to finish; to be over; whole,动 v.,动 v.,2,2
+449,万,wàn,ten thousand; a great number,数 num.,数 num.,2,2
+450,往,wǎng,to go; to; towards,动 v.; 介 prep.,动 v.,2,2
+451,网上,wǎngshang,online,名 n.,名 n.,2,2
+452,忘,wàng,to forget; to overlook; to neglect,动 v.,动 v.,2,2
+453,位,wèi,measure word for people (honorific),量 m.w.,量 m.w.,2,2
+454,为什么,wèishénme,why,代 pron.,代 pron.,2,2
+455,希望,xīwàng,to hope; a hope; a wish,动 v.,动 v.,2,2
+456,洗,xǐ,to wash; to bathe; to develop,动 v.,动 v.,2,2
+457,洗手间,xǐshǒujiān,toilet; lavatory; washroom,名 n.,名 n.,2,2
+458,下来,xiàlái,to come down,动 v.,动 v.,2,2
+459,下面,xiàmiàn,below; under; next,名 n.,名 n.,2,2
+460,下去,xiàqù,to go down; to descend; to go on,动 v.,动 v.,2,2
+461,小孩儿,xiǎohái'er,child; kid,名 n.,名 n.,2,2
+462,小时候,xiǎoshíhou,in one's childhood,名 n.,名 n.,2,2
+463,笑,xiào,to laugh; to smile; to laugh at,动 v.,动 v.,2,2
+464,姓,xìng,family name,名 n.; 动 v.,名 n.,2,2
+465,姓名,xìngmíng,full name,名 n.,名 n.,2,2
+466,颜色,yánsè,color; countenance; appearance,名 n.,名 n.,2,2
+467,眼睛,yǎnjing,eye,名 n.,名 n.,2,2
+468,药,yào,medicine,名 n.,名 n.,2,2
+469,药店,yàodiàn,pharmacy,名 n.,名 n.,2,2
+470,爷爷,yéye,grandpa,名 n.,名 n.,2,2
+471,一会儿,yíhuìr,a little while; a moment,数量 qty. expr.; （副 adv.）,数量 qty. expr.,2,2（3）
+472,已经,yǐjīng,already,副 adv.,副 adv.,2,2
+473,一起,yìqǐ,in the same place; together; with,副 adv.,副 adv.,2,2
+474,意思,yìsi,idea; opinion; meaning,名 n.,名 n.,2,2
+475,阴,yīn,overcast; cloudy; shady,形 adj.,形 adj.,2,2
+476,因为,yīnwèi,because,介 prep.; 连 conj.,介 prep.,2,2
+477,游,yóu,to walk; to tour; to roam,动 v.,动 v.,2,2
+478,游泳,yóuyǒng,swimming; to swim,动 v.,动 v.,2,2
+479,有意思,yǒuyìsi,interesting; meaningful; enjoyable,形 adj.,形 adj.,2,2
+480,有时,yǒushí,sometimes,副 adv.,副 adv.,2,2
+481,右,yòu,right; right side,名 n.,名 n.,2,2
+482,右边,yòubian,right side; right; to the right,名 n.,名 n.,2,2
+483,鱼,yú,fish,名 n.,名 n.,2,2
+484,远,yuǎn,far; distant; remote,形 adj.,形 adj.,2,2
+485,运动,yùndòng,to move; to exercise; sports,动 v.; 名 n.,动 v.,2,2
+486,站1,zhàn,station; stop,名 n.,名 n.,2,2
+487,丈夫,zhàngfu,husband,名 n.,名 n.,2,2
+488,这么,zhème,so much; this much; how much?,代 pron.,代 pron.,2,2
+489,这样,zhèyàng,this kind of; so; this way,代 pron.,代 pron.,2,2
+490,着,zhe,aspect particle; ongoing state,助 part.,助 part.,2,2
+491,正,zhèng,straight; upright; proper,副 adv.; （形 adj.）,副 adv.,2,2（5）
+492,周,zhōu,week,名 n.; （量 m.w.）,名 n.,2,2（6）
+493,准备,zhǔnbèi,preparation; to prepare; to intend,动 v.,动 v.,2,2
+494,自己,zìjǐ,oneself; one's own,代 pron.,代 pron.,2,2
+495,走,zǒu,to walk; to go; to run,动 v.,动 v.,2,2
+496,走路,zǒulù,to walk; to go on foot,动 v.,动 v.,2,2
+497,足球,zúqiú,soccer ball; a football; soccer,名 n.,名 n.,2,2
+498,最,zuì,most; the most; -est,副 adv.,副 adv.,2,2
+499,左,zuǒ,left; left side,名 n.,名 n.,2,2
+500,左边,zuǒbian,left; the left side; to the left of,名 n.,名 n.,2,2
+501,阿姨,āyí,auntie; nanny,名 n.,名 n.,3,3
+502,矮,ǎi,short; low,形 adj.,形 adj.,3,3
+503,爱人,àiren,spouse; lover,名 n.,名 n.,3,3
+504,安静,ānjìng,quiet; peaceful; calm,形 adj.,形 adj.,3,3
+505,安全,ānquán,safe; secure; safety,形 adj.,形 adj.,3,3
+506,把,bǎ,measure word for things with handles,量 m.w.; 介 prep.,量 m.w.,3,3
+507,搬,bān,to move; to carry,动 v.,动 v.,3,3
+508,班级,bānjí,class; grade,名 n.,名 n.,3,3
+509,搬家,bānjiā,to move house,动 v.,动 v.,3,3
+510,办,bàn,to do; to manage; to handle,动 v.,动 v.,3,3
+511,办法,bànfǎ,means; method; way,名 n.,名 n.,3,3
+512,办公室,bàngōngshì,office; business premises; bureau,名 n.,名 n.,3,3
+513,半天,bàntiān,half of the day,数量 qty. expr.,数量 qty. expr.,3,3
+514,帮助,bāngzhù,assistance; aid; to help,动 v.,动 v.,3,3
+515,饱,bǎo,to eat till full; satisfied,形 adj.,形 adj.,3,3
+516,报纸,bàozhǐ,newspaper; newsprint,名 n.,名 n.,3,3
+517,北,běi,north; to be defeated,名 n.,名 n.,3,3
+518,北方,běifāng,the north; northern China,名 n.,名 n.,3,3
+519,被,bèi,by; passive marker,介 prep.,介 prep.,3,3
+520,笔记,bǐjì,notes; note-taking,名 n.,名 n.,3,3
+521,比较,bǐjiào,to compare; to contrast; comparatively,动 v.; 介 prep.; 副 adv.,动 v.,3,3
+522,笔记本,bǐjìběn,notebook,名 n.,名 n.,3,3
+523,比如,bǐrú,for example; for instance; such as,动 v.,动 v.,3,3
+524,比赛,bǐsài,competition; match; to compete,动 v.; 名 n.,动 v.,3,3
+525,必须,bìxū,to have to; must; compulsory,副 adv.,副 adv.,3,3
+526,变,biàn,to change; to become,动 v.,动 v.,3,3
+527,遍,biàn,measure word for actions,量 m.w.,量 m.w.,3,3
+528,变成,biànchéng,to change into; to turn into; to become,动 v.,动 v.,3,3
+529,变化,biànhuà,to change; to vary; change,动 v.; 名 n.,动 v.,3,3
+530,表演,biǎoyǎn,play; show; performance,动 v.,动 v.,3,3
+531,别的,biéde,else; other,代 pron.,代 pron.,3,3
+532,别人,biérén,other people; others; other person,代 pron.,代 pron.,3,3
+533,宾馆,bīnguǎn,hotel,名 n.,名 n.,3,3
+534,冰,bīng,ice,名 n.; （动 v.）,名 n.,3,3（5）
+535,冰激凌,bīngjīlíng,ice cream,名 n.,名 n.,3,3
+536,冰箱,bīngxiāng,refrigerator,名 n.,名 n.,3,3
+537,病人,bìngrén,sick person; patient; invalid,名 n.,名 n.,3,3
+538,不但,búdàn,not only,连 conj.,连 conj.,3,3
+539,不见,bújiàn,to disappear; not to see,动 v.,动 v.,3,3
+540,不用,búyòng,do not need to,副 adv.,副 adv.,3,3
+541,不同,bùtóng,different,形 adj.,形 adj.,3,3
+542,不久,bùjiǔ,not long; before too long; soon,形 adj.,形 adj.,3,3
+543,不行,bùxíng,not okay; will not work,动 v.; 形 adj.,动 v.,3,3
+544,才1,cái,only; not until,副 adv.,副 adv.,3,3
+545,菜单,càidān,menu,名 n.,名 n.,3,3
+546,参加,cānjiā,to participate; to take part; to join,动 v.,动 v.,3,3
+547,草,cǎo,grass; straw; manuscript,名 n.,名 n.,3,3
+548,草地,cǎodì,lawn; meadow; sod,名 n.,名 n.,3,3
+549,层,céng,measure word for layers,量 m.w.,量 m.w.,3,3
+550,查,chá,to check; to look up,动 v.,动 v.,3,3
+551,差,chà,different; wrong; mistaken,形 adj.; 动 v.,形 adj.,3,3
+552,差不多,chàbuduō,almost; nearly; more or less,形 adj.; 副 adv.,形 adj.,3,3
+553,尝,cháng,to taste,动 v.,动 v.,3,3
+554,常,cháng,always; ever; often,副 adv.,副 adv.,3,3
+555,常见,chángjiàn,common,形 adj.,形 adj.,3,3
+556,常用,chángyòng,commonly used,形 adj.,形 adj.,3,3
+557,常常,chángcháng,frequently; often,副 adv.,副 adv.,3,3
+558,衬衫,chènshān,shirt; blouse,名 n.,名 n.,3,3
+559,成绩,chéngjì,grade; score; result,名 n.,名 n.,3,3
+560,城市,chéngshì,city; town,名 n.,名 n.,3,3
+561,迟到,chídào,to be late,动 v.,动 v.,3,3
+562,出发,chūfā,to set off; to start,动 v.,动 v.,3,3
+563,出生,chūshēng,to be born,动 v.,动 v.,3,3
+564,出院,chūyuàn,to leave the hospital,动 v.,动 v.,3,3
+565,初中,chūzhōng,middle school,名 n.,名 n.,3,3
+566,除了,chúle,besides; except for,介 prep.,介 prep.,3,3
+567,船,chuán,boat; vessel; ship,名 n.,名 n.,3,3
+568,春天,chūntiān,spring,名 n.,名 n.,3,3
+569,词典,cídiǎn,dictionary; also written 辞典,名 n.,名 n.,3,3
+570,聪明,cōngmíng,smart; clever,形 adj.,形 adj.,3,3
+571,打扫,dǎsǎo,to clean,动 v.,动 v.,3,3
+572,打算,dǎsuàn,to plan; to intend; to calculate,动 v.; 名 n.,动 v.,3,3
+573,大概,dàgài,roughly; probably; rough,形 adj.; 副 adv.; （名 n.）,形 adj.,3,3（6）
+574,大人,dàren,adult,名 n.,名 n.,3,3
+575,大小,dàxiǎo,dimension; magnitude; size,名 n.,名 n.,3,3
+576,大熊猫,dàxióngmāo,giant panda,名 n.,名 n.,3,3
+577,大衣,dàyī,overcoat; topcoat; cloak,名 n.,名 n.,3,3
+578,带,dài,band; belt; girdle,动 v.; （名 n.）,动 v.,3,3（5）
+579,担心,dānxīn,to worry,动 v.,动 v.,3,3
+580,蛋糕,dàngāo,cake,名 n.,名 n.,3,3
+581,当然,dāngrán,of course; certainly,副 adv.,副 adv.,3,3
+582,到处,dàochù,everywhere,副 adv.,副 adv.,3,3
+583,得,dé,complement particle,动 v.,动 v.,3,3
+584,得到,dédào,to get; to obtain; to receive,动 v.,动 v.,3,3
+585,得分,défēn,to score,动 v.; 名 n.,动 v.,3,3
+586,的话,dehuà,if,助 part.,助 part.,3,3
+587,得,děi,complement particle,动 v.,动 v.,3,3
+588,灯,dēng,lamp; light; lantern,名 n.,名 n.,3,3
+589,地,dì,ground; place,名 n.,名 n.,3,3
+590,地点,dìdiǎn,place; site; location,名 n.,名 n.,3,3
+591,地方,dìfang,area; place; space,名 n.,名 n.,3,3
+592,地图,dìtú,map,名 n.,名 n.,3,3
+593,电,diàn,lightning; electricity; electric,名 n.; （动 v.）,名 n.,3,3（5）
+594,电梯,diàntī,elevator,名 n.,名 n.,3,3
+595,电子书,diànzǐshū,e-book,名 n.,名 n.,3,3
+596,丢,diū,to lose; to throw away,动 v.,动 v.,3,3
+597,东,dōng,east,名 n.,名 n.,3,3
+598,东北,dōngběi,Northeast China; Manchuria,名 n.,名 n.,3,3
+599,东方,dōngfāng,east,名 n.,名 n.,3,3
+600,东南,dōngnán,southeast,名 n.,名 n.,3,3
+601,冬天,dōngtiān,winter,名 n.,名 n.,3,3
+602,懂得,dǒngde,to understand; to know; to comprehend,动 v.,动 v.,3,3
+603,动物,dòngwù,animal,名 n.,名 n.,3,3
+604,动物园,dòngwùyuán,zoo,名 n.,名 n.,3,3
+605,短,duǎn,short; brief; to lack,形 adj.,形 adj.,3,3
+606,短裤,duǎnkù,short pants; shorts,名 n.,名 n.,3,3
+607,段,duàn,measure word for sections; periods,量 m.w.,量 m.w.,3,3
+608,锻炼,duànliàn,to exercise,动 v.,动 v.,3,3
+609,对话,duìhuà,to talk; dialogue; conversation,动 v.,动 v.,3,3
+610,饿,è,to be hungry; hungry; to starve,形 adj.,形 adj.,3,3
+611,而且,érqiě,but also; moreover; in addition,连 conj.,连 conj.,3,3
+612,耳朵,ěrduo,ear,名 n.,名 n.,3,3
+613,耳机,ěrjī,headphones,名 n.,名 n.,3,3
+614,发,fā,to send out; to show; to issue,动 v.,动 v.,3,3
+615,发烧,fāshāo,to have a fever,动 v.,动 v.,3,3
+616,发生,fāshēng,to happen; to occur; to take place,动 v.,动 v.,3,3
+617,发现,fāxiàn,to notice; to become aware of; to discover,动 v.,动 v.,3,3
+618,发展,fāzhǎn,development; growth; to develop,动 v.,动 v.,3,3
+619,方便,fāngbiàn,convenient; suitable; to facilitate,形 adj.,形 adj.,3,3
+620,方便面,fāngbiànmiàn,instant noodles,名 n.,名 n.,3,3
+621,方法,fāngfǎ,method; way; means,名 n.,名 n.,3,3
+622,方向,fāngxiàng,direction; orientation,名 n.,名 n.,3,3
+623,房子,fángzi,house; apartment,名 n.,名 n.,3,3
+624,放,fàng,to put; to place; to release,动 v.,动 v.,3,3
+625,放假,fàngjià,to have a holiday or vacation,动 v.,动 v.,3,3
+626,放心,fàngxīn,to feel relieved,动 v.,动 v.,3,3
+627,放学,fàngxué,school ends; to get out of school,动 v.,动 v.,3,3
+628,分开,fēnkāi,to separate; to part,动 v.,动 v.,3,3
+629,风,fēng,wind; news; style,名 n.,名 n.,3,3
+630,封,fēng,measure word for letters,量 m.w.; （动 v.）,量 m.w.,3,3（6）
+631,夫妻,fūqī,married couple,名 n.,名 n.,3,3
+632,服务,fúwù,to serve; service,动 v.,动 v.,3,3
+633,附近,fùjìn,nearby; nearby area,名 n.,名 n.,3,3
+634,复习,fùxí,to review; revision,动 v.,动 v.,3,3
+635,该1,gāi,should; ought to,动 v.,动 v.,3,3
+636,干净,gānjìng,clean; neat,形 adj.,形 adj.,3,3
+637,感兴趣,gǎnxìngqù,interested,形 adj.,形 adj.,3,3
+638,感到,gǎndào,to feel; to sense; to perceive,动 v.,动 v.,3,3
+639,感冒,gǎnmào,cold; to catch a cold,名 n.; 动 v.,名 n.,3,3
+640,干,gàn,to do; to work,动 v.,动 v.,3,3
+641,刚,gāng,hard; firm; strong,副 adv.,副 adv.,3,3
+642,刚才,gāngcái,just now; a moment ago,名 n.,名 n.,3,3
+643,刚刚,gānggāng,just recently; just a moment ago,副 adv.,副 adv.,3,3
+644,高铁,gāotiě,high-speed rail,名 n.,名 n.,3,3
+645,根据,gēnjù,according to; based on,动 v.; 介 prep.; （名 n.）,动 v.,3,3（5）
+646,更,gèng,more; even more; further,副 adv.,副 adv.,3,3
+647,公斤,gōngjīn,kilogram,量 m.w.,量 m.w.,3,3
+648,公园,gōngyuán,park,名 n.,名 n.,3,3
+649,工作日,gōngzuòrì,weekday,名 n.,名 n.,3,3
+650,故事,gùshi,narrative; story; tale,名 n.,名 n.,3,3
+651,刮,guā,to blow; to scrape,动 v.,动 v.,3,3
+652,关,guān,mountain pass; to close; to shut,动 v.; （名 n.）,动 v.,3,3（5）
+653,关机,guānjī,to turn off,动 v.,动 v.,3,3
+654,关系,guānxì,relation; relationship; to concern,名 n.; （动 v.）,名 n.,3,3（4）
+655,关心,guānxīn,to be concerned about; to care about,动 v.,动 v.,3,3
+656,关于,guānyú,about; regarding,介 prep.,介 prep.,3,3
+657,关注,guānzhù,to pay attention to; to follow,动 v.,动 v.,3,3
+658,国家,guójiā,country; nation; state,名 n.,名 n.,3,3
+659,过节,guòjié,to celebrate a holiday,动 v.,动 v.,3,3
+660,过去2,guòqù,past; before,名 n.,名 n.,3,3
+661,海,hǎi,sea; ocean,名 n.,名 n.,3,3
+662,害怕,hàipà,to be afraid; to be scared,动 v.,动 v.,3,3
+663,好多,hǎoduō,many; quite a lot; much better,数 num.,数 num.,3,3
+664,好久,hǎojiǔ,quite a while,形 adj.,形 adj.,3,3
+665,好像,hǎoxiàng,as if; to seem like,动 v.; 副 adv.,动 v.,3,3
+666,号码,hàomǎ,number,名 n.,名 n.,3,3
+667,河,hé,river,名 n.,名 n.,3,3
+668,合适,héshì,suitable; fitting; appropriate,形 adj.,形 adj.,3,3
+669,黑板,hēibǎn,blackboard,名 n.,名 n.,3,3
+670,红绿灯,hóng-lǜdēng,traffic light,名 n.,名 n.,3,3
+671,后来,hòulái,afterwards; later; newly arrived,名 n.,名 n.,3,3
+672,后年,hòunián,the year after next,名 n.,名 n.,3,3
+673,后天,hòutiān,the day after tomorrow,名 n.,名 n.,3,3
+674,护照,hùzhào,passport,名 n.,名 n.,3,3
+675,花园,huāyuán,garden,名 n.,名 n.,3,3
+676,画家,huàjiā,painter,名 n.,名 n.,3,3
+677,欢迎,huānyíng,to welcome; welcome,动 v.,动 v.,3,3
+678,还,huán,to return; to give back,动 v.,动 v.,3,3
+679,环境,huánjìng,environment; circumstances; surroundings,名 n.,名 n.,3,3
+680,换,huàn,to change; to exchange,动 v.,动 v.,3,3
+681,黄色,huángsè,yellow; pornographic,名 n.,名 n.,3,3
+682,回答,huídá,to reply; to answer; reply,动 v.,动 v.,3,3
+683,会2,huì,meeting,名 n.,名 n.,3,3
+684,会议,huìyì,meeting; conference,名 n.,名 n.,3,3
+685,或,huò,maybe; perhaps; might,连 conj.; （副 adv.）,连 conj.,3,3（6）
+686,或者,huòzhě,or; possibly; maybe,连 conj.,连 conj.,3,3
+687,鸡,jī,fowl; chicken; prostitute,名 n.,名 n.,3,3
+688,几乎,jīhū,almost,副 adv.,副 adv.,3,3
+689,机会,jīhuì,opportunity; chance; occasion,名 n.,名 n.,3,3
+690,极,jí,extremely,副 adv.,副 adv.,3,3
+691,急,jí,urgent; pressing; rapid,形 adj.; 动 v.,形 adj.,3,3
+692,记,jì,to record; to note; to memorize,动 v.,动 v.,3,3
+693,季,jì,season,名 n.,名 n.,3,3
+694,季节,jìjié,season,名 n.,名 n.,3,3
+695,加,jiā,to add; plus; to apply to,动 v.,动 v.,3,3
+696,假期,jiàqī,vacation,名 n.,名 n.,3,3
+697,坚持,jiānchí,to stick to; to persist,动 v.,动 v.,3,3
+698,检查,jiǎnchá,inspection; to examine; to inspect,动 v.,动 v.,3,3
+699,简单,jiǎndān,simple; not complicated,形 adj.,形 adj.,3,3
+700,检票,jiǎnpiào,to check tickets,动 v.,动 v.,3,3
+701,健康,jiànkāng,health; healthy,形 adj.,形 adj.,3,3
+702,见面,jiànmiàn,to meet; to see each other,动 v.,动 v.,3,3
+703,讲,jiǎng,to speak; to explain; to negotiate,动 v.,动 v.,3,3
+704,角,jiǎo,angle,量 m.w.,量 m.w.,3,3
+705,脚,jiǎo,foot; leg,名 n.,名 n.,3,3
+706,接,jiē,to receive; to pick up,动 v.,动 v.,3,3
+707,街,jiē,street,名 n.,名 n.,3,3
+708,节,jié,festival; holiday; measure word for sections,量 m.w.; 名 n.; （动 v.）,量 m.w.,3,3（4）
+709,结婚,jiéhūn,to marry; to get married,动 v.,动 v.,3,3
+710,节目,jiémù,program; item,名 n.,名 n.,3,3
+711,节日,jiérì,holiday; festival,名 n.,名 n.,3,3
+712,结束,jiéshù,termination; to finish; to end,动 v.,动 v.,3,3
+713,解决,jiějué,to solve; to resolve; to settle,动 v.,动 v.,3,3
+714,姐妹,jiěmèi,sisters; siblings; sister,名 n.,名 n.,3,3
+715,借,jiè,to lend; to borrow; by means of,动 v.,动 v.,3,3
+716,斤,jīn,catty,量 m.w.,量 m.w.,3,3
+717,经过,jīngguò,to pass; to go through; process,动 v.; 名 n.,动 v.,3,3
+718,经理,jīnglǐ,manager; director,名 n.,名 n.,3,3
+719,久,jiǔ,time; duration of time,形 adj.,形 adj.,3,3
+720,酒,jiǔ,wine; liquor; spirits,名 n.,名 n.,3,3
+721,旧,jiù,old; opposite: new 新; former,形 adj.,形 adj.,3,3
+722,句,jù,measure word for phrases or lines of verse,量 m.w.,量 m.w.,3,3
+723,句子,jùzi,sentence,名 n.,名 n.,3,3
+724,决定,juédìng,to decide; decision,动 v.; 名 n.,动 v.,3,3
+725,卡,kǎ,to block; to be stuck; to be wedged,名 n.,名 n.,3,3
+726,开花,kāihuā,to bloom,动 v.,动 v.,3,3
+727,开会,kāihuì,to hold a meeting; to attend a meeting,动 v.,动 v.,3,3
+728,开机,kāijī,to turn on; to boot up,动 v.,动 v.,3,3
+729,开心,kāixīn,happy,形 adj.,形 adj.,3,3
+730,看来,kànlái,apparently; it seems that,动 v.,动 v.,3,3
+731,可,kě,used in 可汗,连 conj.; （副 adv.）,连 conj.,3,3（5）
+732,渴,kě,thirsty,形 adj.,形 adj.,3,3
+733,可爱,kě’ài,adorable; cute; lovely,形 adj.,形 adj.,3,3
+734,可是,kěshì,but; however; indeed,连 conj.,连 conj.,3,3
+735,刻,kè,quarter (hour); measure word for short periods,量 m.w.; （动 v.）,量 m.w.,3,3（5）
+736,课本,kèběn,textbook,名 n.,名 n.,3,3
+737,客人,kèrén,visitor; guest; customer,名 n.,名 n.,3,3
+738,课文,kèwén,text,名 n.,名 n.,3,3
+739,空调,kōngtiáo,air conditioner,名 n.,名 n.,3,3
+740,哭,kū,to cry; to weep,动 v.,动 v.,3,3
+741,筷子,kuàizi,chopsticks,名 n.,名 n.,3,3
+742,矿泉水,kuàngquánshuǐ,mineral water; 杯,名 n.,名 n.,3,3
+743,来自,láizì,to come from; From:,动 v.,动 v.,3,3
+744,蓝,lán,blue; indigo plant,形 adj.,形 adj.,3,3
+745,老,lǎo,old; venerable; experienced,形 adj.; 前缀 pref.; （副 adv.）,形 adj.,3,3（4）
+746,老人,lǎorén,old person; the elderly,名 n.,名 n.,3,3
+747,离开,líkāi,to depart; to leave,动 v.,动 v.,3,3
+748,礼物,lǐwù,gift; present,名 n.,名 n.,3,3
+749,历史,lìshǐ,history,名 n.,名 n.,3,3
+750,脸,liǎn,face,名 n.,名 n.,3,3
+751,练,liàn,to practice; to train; to drill,动 v.,动 v.,3,3
+752,练习,liànxí,to practice; exercise; drill,动 v.; 名 n.,动 v.,3,3
+753,凉快,liángkuai,nice and cold; pleasantly cool,形 adj.,形 adj.,3,3
+754,辆,liàng,measure word for vehicles,量 m.w.,量 m.w.,3,3
+755,聊,liáo,to chat; to depend upon; temporarily,动 v.,动 v.,3,3
+756,聊天儿,liáotiānr,to chat,动 v.,动 v.,3,3
+757,了解,liǎojiě,to understand; to realize; to find out,动 v.,动 v.,3,3
+758,邻居,línjū,neighbor; next door,名 n.,名 n.,3,3
+759,留学,liúxué,to study abroad,动 v.,动 v.,3,3
+760,留学生,liúxuéshēng,international student,名 n.,名 n.,3,3
+761,楼梯,lóutī,stair; staircase,名 n.,名 n.,3,3
+762,路边,lùbiān,curb; roadside; wayside,名 n.,名 n.,3,3
+763,路口,lùkǒu,crossing; intersection,名 n.,名 n.,3,3
+764,马,mǎ,horse,名 n.,名 n.,3,3
+765,马路,mǎlù,street; road,名 n.,名 n.,3,3
+766,马上,mǎshàng,at once; right away; immediately,副 adv.,副 adv.,3,3
+767,满意,mǎnyì,satisfied; pleased,动 v.,动 v.,3,3
+768,毛,máo,mao; one-tenth of a yuan,量 m.w.; （名 n.）,量 m.w.,3,3（5）
+769,米,mǐ,rice,量 m.w.,量 m.w.,3,3
+770,面前,miànqián,in front of; facing; presence,名 n.,名 n.,3,3
+771,明白,míngbai,clear; obvious; unequivocal,形 adj.; 动 v.,形 adj.,3,3
+772,名单,míngdān,list of names,名 n.,名 n.,3,3
+773,名人,míngrén,personage; celebrity,名 n.,名 n.,3,3
+774,南,nán,south,名 n.,名 n.,3,3
+775,难,nán,disaster; distress; to scold,形 adj.; （动 v.）,形 adj.,3,3（6）
+776,南方,nánfāng,the south,名 n.,名 n.,3,3
+777,难过,nánguò,sad; upset,形 adj.,形 adj.,3,3
+778,难看,nánkàn,ugly; unsightly,形 adj.,形 adj.,3,3
+779,男人,nánrén,a man; a male; men,名 n.,名 n.,3,3
+780,男生,nánshēng,schoolboy; male student; boy,名 n.,名 n.,3,3
+781,难题,nántí,difficult problem,名 n.,名 n.,3,3
+782,难听,nántīng,unpleasant to hear; bad-sounding,形 adj.,形 adj.,3,3
+783,年级,niánjí,grade; year,名 n.,名 n.,3,3
+784,年轻,niánqīng,young,形 adj.,形 adj.,3,3
+785,牛,niú,cow; awesome,名 n.; （形 adj.）,名 n.,3,3（5）
+786,努力,nǔlì,to make an effort; to try hard; to strive,动 v.; 形 adj.,动 v.,3,3
+787,女人,nǚrén,woman,名 n.,名 n.,3,3
+788,女生,nǚshēng,schoolgirl; female student; girl,名 n.,名 n.,3,3
+789,爬,pá,to crawl; to climb; to get up or sit up,动 v.,动 v.,3,3
+790,怕,pà,to be afraid; to fear; to dread,动 v.; （副 adv.）,动 v.,3,3（4）
+791,拍照,pāizhào,to take a photo,动 v.,动 v.,3,3
+792,盘子,pánzi,plate,名 n.,名 n.,3,3
+793,胖,pàng,fat; plump,形 adj.,形 adj.,3,3
+794,啤酒,píjiǔ,beer,名 n.,名 n.,3,3
+795,平时,píngshí,usually; in everyday life,名 n.,名 n.,3,3
+796,瓶子,píngzi,bottle,名 n.,名 n.,3,3
+797,骑,qí,to ride,动 v.,动 v.,3,3
+798,奇怪,qíguài,strange; odd; to marvel,形 adj.,形 adj.,3,3
+799,其实,qíshí,actually; in fact; really,副 adv.,副 adv.,3,3
+800,其他,qítā,other; else; the rest,代 pron.,代 pron.,3,3
+801,起,qǐ,to rise; measure word for events,动 v.; （量 m.w.）,动 v.,3,3（5）
+802,起飞,qǐfēi,to take off,动 v.,动 v.,3,3
+803,汽车,qìchē,car; automobile; bus,名 n.,名 n.,3,3
+804,铅笔,qiānbǐ,pencil; 枝; 桿|杆,名 n.,名 n.,3,3
+805,前年,qiánnián,the year before last,名 n.,名 n.,3,3
+806,前天,qiántiān,the day before yesterday,名 n.,名 n.,3,3
+807,清楚,qīngchu,clear; distinct; to understand thoroughly,形 adj.; 动 v.,形 adj.,3,3
+808,请假,qǐngjià,to request leave of absence,动 v.,动 v.,3,3
+809,请客,qǐngkè,to treat someone; to invite to dinner,动 v.,动 v.,3,3
+810,秋天,qiūtiān,autumn,名 n.,名 n.,3,3
+811,球场,qiúchǎng,stadium; sports ground; court,名 n.,名 n.,3,3
+812,裙子,qúnzi,skirt,名 n.,名 n.,3,3
+813,然后,ránhòu,then; after that; afterwards,连 conj.,连 conj.,3,3
+814,热情,rèqíng,cordial; enthusiastic; passion,形 adj.,形 adj.,3,3
+815,认得,rènde,to recognize; to know,动 v.,动 v.,3,3
+816,认为,rènwéi,to believe; to think; to consider,动 v.,动 v.,3,3
+817,认真,rènzhēn,conscientious; earnest; serious,形 adj.,形 adj.,3,3
+818,容易,róngyì,easy; straightforward; likely,形 adj.,形 adj.,3,3
+819,如果,rúguǒ,if; in case; in the event that,连 conj.,连 conj.,3,3
+820,伞,sǎn,umbrella,名 n.,名 n.,3,3
+821,扫,sǎo,to sweep,动 v.,动 v.,3,3
+822,沙发,shāfā,sofa,名 n.,名 n.,3,3
+823,山,shān,mountain; hill,名 n.,名 n.,3,3
+824,上衣,shàngyī,jacket; upper outer garment,名 n.,名 n.,3,3
+825,勺子,sháozi,spoon,名 n.,名 n.,3,3
+826,身边,shēnbiān,at one's side; on hand,名 n.,名 n.,3,3
+827,身高,shēngāo,height,名 n.,名 n.,3,3
+828,声,shēng,sound; voice; measure word for sounds,名 n.; 量 m.w.,名 n.,3,3
+829,生活,shēnghuó,to live; life; livelihood,名 n.; 动 v.,名 n.,3,3
+830,生气,shēngqì,to get angry; to take offense; angry,动 v.,动 v.,3,3
+831,声音,shēngyīn,voice; sound,名 n.,名 n.,3,3
+832,市,shì,market; city,名 n.,名 n.,3,3
+833,试,shì,to test; to try; experiment,动 v.,动 v.,3,3
+834,室,shì,room; work unit; grave,名 n.,名 n.,3,3
+835,世界,shìjiè,world,名 n.,名 n.,3,3
+836,收,shōu,to receive; to accept; to collect,动 v.,动 v.,3,3
+837,收到,shōudào,to receive,动 v.,动 v.,3,3
+838,受,shòu,to receive; to accept; to suffer,动 v.,动 v.,3,3
+839,瘦,shòu,thin,形 adj.,形 adj.,3,3
+840,受到,shòudào,to receive,动 v.,动 v.,3,3
+841,叔叔,shūshu,uncle,名 n.,名 n.,3,3
+842,树,shù,tree; to cultivate; to set up,名 n.,名 n.,3,3
+843,数学,shùxué,math,名 n.,名 n.,3,3
+844,刷,shuā,to brush; to swipe,动 v.,动 v.,3,3
+845,双,shuāng,two,量 m.w.,量 m.w.,3,3
+846,水平,shuǐpíng,level; standard; horizontal,名 n.,名 n.,3,3
+847,司机,sījī,chauffeur; driver,名 n.,名 n.,3,3
+848,四季,sìjì,the four seasons,名 n.,名 n.,3,3
+849,太阳,tàiyáng,sun,名 n.,名 n.,3,3
+850,糖,táng,sugar; sweets; candy,名 n.,名 n.,3,3
+851,特别,tèbié,unusual; special; very,形 adj.; 副 adv.,形 adj.,3,3
+852,提高,tígāo,to raise; to increase; to improve,动 v.,动 v.,3,3
+853,体育,tǐyù,sports; physical education,名 n.,名 n.,3,3
+854,体育馆,tǐyùguǎn,gym; gymnasium; stadium,名 n.,名 n.,3,3
+855,甜,tián,sweet,形 adj.,形 adj.,3,3
+856,跳,tiào,to jump; to hop; to skip over,动 v.,动 v.,3,3
+857,听说,tīngshuō,to hear; it is said,动 v.,动 v.,3,3
+858,挺,tǐng,quite; very,副 adv.; （动 v.）,副 adv.,3,3（7-9）
+859,同事,tóngshì,colleague; co-worker,名 n.,名 n.,3,3
+860,同意,tóngyì,to agree; to consent; to approve,动 v.,动 v.,3,3
+861,头发,tóufa,hair,名 n.,名 n.,3,3
+862,突然,tūrán,sudden; abrupt; unexpected,形 adj.,形 adj.,3,3
+863,图书馆,túshūguǎn,library,名 n.,名 n.,3,3
+864,腿,tuǐ,leg,名 n.,名 n.,3,3
+865,外地,wàidì,another place; out of town,名 n.,名 n.,3,3
+866,外卖,wàimài,takeout; food delivery,动 v.; 名 n.,动 v.,3,3
+867,外语,wàiyǔ,foreign language,名 n.,名 n.,3,3
+868,完成,wánchéng,to complete; to accomplish,动 v.,动 v.,3,3
+869,碗,wǎn,bowl,名 n.,名 n.,3,3
+870,晚点,wǎndiǎn,late; delayed; behind schedule,动 v.,动 v.,3,3
+871,晚会,wǎnhuì,evening party,名 n.,名 n.,3,3
+872,网球,wǎngqiú,tennis; tennis ball,名 n.,名 n.,3,3
+873,网站,wǎngzhàn,website; network station; node,名 n.,名 n.,3,3
+874,忘记,wàngjì,to forget,动 v.,动 v.,3,3
+875,为,wèi,because of; for; to,介 prep.,介 prep.,3,3
+876,为了,wèile,for; for the purpose of; in order to,介 prep.,介 prep.,3,3
+877,卫生间,wèishēngjiān,bathroom; toilet; WC,名 n.,名 n.,3,3
+878,文化,wénhuà,culture; civilization; cultural,名 n.,名 n.,3,3
+879,屋子,wūzi,house; room,名 n.,名 n.,3,3
+880,西,xī,west,名 n.,名 n.,3,3
+881,西北,xīběi,Northwest China,名 n.,名 n.,3,3
+882,西方,xīfāng,the West; Western,名 n.,名 n.,3,3
+883,西瓜,xīguā,watermelon; 個|个,名 n.,名 n.,3,3
+884,西南,xīnán,southwest,名 n.,名 n.,3,3
+885,习惯,xíguàn,habit; custom; usual practice,动 v.; 名 n.,动 v.,3,3
+886,喜爱,xǐ’ài,to like; to love; favorite,动 v.,动 v.,3,3
+887,洗衣机,xǐyījī,washing machine; washer,名 n.,名 n.,3,3
+888,洗澡,xǐzǎo,to bathe; to take a shower,动 v.,动 v.,3,3
+889,夏天,xiàtiān,summer,名 n.,名 n.,3,3
+890,先,xiān,early; prior; former,副 adv.,副 adv.,3,3
+891,香蕉,xiāngjiāo,banana,名 n.,名 n.,3,3
+892,相信,xiāngxìn,to believe,动 v.,动 v.,3,3
+893,箱子,xiāngzi,suitcase; chest; box,名 n.,名 n.,3,3
+894,向,xiàng,toward; to,动 v.; 介 prep.,动 v.,3,3
+895,像,xiàng,to resemble; to be like; to look as if,动 v.; （副 adv.）; （名 n.）,动 v.,3,3（4）（7-9）
+896,相机,xiàngjī,camera,名 n.,名 n.,3,3
+897,小区,xiǎoqū,residential community,名 n.,名 n.,3,3
+898,小心,xiǎoxīn,to be careful; to take care,动 v.; 形 adj.,动 v.,3,3
+899,校园,xiàoyuán,campus,名 n.,名 n.,3,3
+900,校长,xiàozhǎng,president; headmaster,名 n.,名 n.,3,3
+901,鞋,xié,shoe,名 n.,名 n.,3,3
+902,心里,xīnlǐ,chest; heart; mind,名 n.,名 n.,3,3
+903,新年,xīnnián,New Year,名 n.,名 n.,3,3
+904,新闻,xīnwén,news,名 n.,名 n.,3,3
+905,新鲜,xīnxiān,fresh; freshness; novel,形 adj.,形 adj.,3,3
+906,信,xìn,letter; mail; to trust,动 v.; 名 n.,动 v.,3,3
+907,信用卡,xìnyòngkǎ,credit card,名 n.,名 n.,3,3
+908,行,xíng,to walk; to go; to travel,动 v.; 形 adj.,动 v.,3,3
+909,行李,xíngli,luggage,名 n.,名 n.,3,3
+910,兴趣,xìngqù,interest; hobby,名 n.,名 n.,3,3
+911,休假,xiūjià,to take a vacation; to be on leave,动 v.,动 v.,3,3
+912,需要,xūyào,to need; to want; to demand,动 v.; 名 n.,动 v.,3,3
+913,选,xuǎn,to choose; to pick; to select,动 v.,动 v.,3,3
+914,选择,xuǎnzé,to select; to pick; choice; option,动 v.,动 v.,3,3
+915,学期,xuéqī,term; semester,名 n.,名 n.,3,3
+916,牙,yá,tooth; ivory,名 n.,名 n.,3,3
+917,牙刷,yáshuā,toothbrush,名 n.,名 n.,3,3
+918,羊,yáng,sheep; goat,名 n.,名 n.,3,3
+919,养,yǎng,to raise; to keep,动 v.,动 v.,3,3
+920,要求,yāoqiú,to request; to require; requirement,动 v.; 名 n.,动 v.,3,3
+921,页,yè,page,量 m.w.,量 m.w.,3,3
+922,一定,yídìng,surely; certainly; necessarily,形 adj.; 副 adv.,形 adj.,3,3
+923,一共,yígòng,altogether,副 adv.,副 adv.,3,3
+924,一块儿,yíkuàir,together; in the same place,名 n.; 副 adv.,名 n.,3,3
+925,一样,yíyàng,same; like; equal to,形 adj.,形 adj.,3,3
+926,以后,yǐhòu,after; later; afterwards,名 n.,名 n.,3,3
+927,以前,yǐqián,before; formerly; previous,名 n.,名 n.,3,3
+928,以上,yǐshàng,above; more than,名 n.,名 n.,3,3
+929,以外,yǐwài,outside; besides; except for,名 n.,名 n.,3,3
+930,以为,yǐwéi,to think; to believe mistakenly,动 v.,动 v.,3,3
+931,以下,yǐxià,below; less than,名 n.,名 n.,3,3
+932,一般,yìbān,ordinary; generally; so-so,形 adj.,形 adj.,3,3
+933,一边,yìbiān,at the same time; one side,副 adv.,副 adv.,3,3
+934,一直,yìzhí,all the time; continuously,副 adv.,副 adv.,3,3
+935,音乐,yīnyuè,music,名 n.,名 n.,3,3
+936,银行,yínháng,bank,名 n.,名 n.,3,3
+937,银行卡,yínhángkǎ,bank card; ATM card,名 n.,名 n.,3,3
+938,饮料,yǐnliào,drink; beverage,名 n.,名 n.,3,3
+939,应该,yīnggāi,ought to; should; must,动 v.,动 v.,3,3
+940,影响,yǐngxiǎng,influence; effect; to influence,动 v.; 名 n.,动 v.,3,3
+941,用,yòng,to use; to employ; to have to,动 v.,动 v.,3,3
+942,邮件,yóujiàn,mail; post; email,名 n.,名 n.,3,3
+943,游客,yóukè,traveler; tourist; guest player,名 n.,名 n.,3,3
+944,游戏,yóuxì,game; to play,名 n.,名 n.,3,3
+945,邮箱,yóuxiāng,mailbox; post office box; email,名 n.,名 n.,3,3
+946,有关,yǒuguān,to relate to; related to,动 v.; 介 prep.,动 v.,3,3
+947,有名,yǒumíng,famous; well-known,形 adj.,形 adj.,3,3
+948,有用,yǒuyòng,useful,形 adj.,形 adj.,3,3
+949,又,yòu,again; also; both... and...,副 adv.,副 adv.,3,3
+950,羽毛球,yǔmáoqiú,badminton; shuttlecock,名 n.,名 n.,3,3
+951,语言,yǔyán,language,名 n.,名 n.,3,3
+952,雨衣,yǔyī,raincoat,名 n.,名 n.,3,3
+953,遇到,yùdào,to meet; to run into,动 v.,动 v.,3,3
+954,遇见,yùjiàn,to meet,动 v.,动 v.,3,3
+955,园,yuán,garden; park,名 n.,名 n.,3,3
+956,员,yuán,person; employee; member,后缀 suff.,后缀 suff.,3,3
+957,愿意,yuànyì,to wish; to want; ready,动 v.,动 v.,3,3
+958,越,yuè,to exceed; to climb over; to surpass,副 adv.,副 adv.,3,3
+959,月亮,yuèliang,the moon,名 n.,名 n.,3,3
+960,运动会,yùndònghuì,sports competition,名 n.,名 n.,3,3
+961,运动员,yùndòngyuán,athlete; 個|个,名 n.,名 n.,3,3
+962,咱们,zánmen,we; us,代 pron.,代 pron.,3,3
+963,脏,zāng,dirty; filthy; to get dirty,形 adj.,形 adj.,3,3
+964,怎么办,zěnmebàn,what to do,代 pron.,代 pron.,3,3
+965,怎样,zěnyàng,how; what kind,代 pron.,代 pron.,3,3
+966,站2,zhàn,to stand,动 v.,动 v.,3,3
+967,张,zhāng,measure word for flat things; to open,动 v.; 量 m.w.,动 v.,3,3
+968,长,zhǎng,chief; head; elder,动 v.; 后缀 suff.,动 v.,3,3
+969,着急,zháojí,worried; anxious,形 adj.,形 adj.,3,3
+970,照,zhào,according to; to take a photo,动 v.,动 v.,3,3
+971,照顾,zhàogù,to take care of,动 v.,动 v.,3,3
+972,照片,zhàopiàn,photograph; picture,名 n.,名 n.,3,3
+973,照相,zhàoxiàng,to take a photograph,动 v.,动 v.,3,3
+974,直到,zhídào,until,动 v.,动 v.,3,3
+975,只,zhǐ,only; just,副 adv.,副 adv.,3,3
+976,纸,zhǐ,paper,名 n.,名 n.,3,3
+977,只能,zhǐnéng,can only,副 adv.,副 adv.,3,3
+978,只是,zhǐshì,merely; only; just,副 adv.; 连 conj.,副 adv.,3,3
+979,只要,zhǐyào,if only; so long as,连 conj.,连 conj.,3,3
+980,只有,zhǐyǒu,only; only if,连 conj.,连 conj.,3,3
+981,中,zhōng,within; among; in,名 n.,名 n.,3,3
+982,中间,zhōngjiān,middle; between,名 n.,名 n.,3,3
+983,终于,zhōngyú,at last; in the end; finally,副 adv.,副 adv.,3,3
+984,种,zhǒng,"measure word for types, kinds, sorts",量 m.w.,量 m.w.,3,3
+985,重要,zhòngyào,important; significant; major,形 adj.,形 adj.,3,3
+986,周末,zhōumò,weekend,名 n.,名 n.,3,3
+987,主要,zhǔyào,main; principal; major,形 adj.,形 adj.,3,3
+988,注意,zhùyì,to take note of; to pay attention to,动 v.,动 v.,3,3
+989,住院,zhùyuàn,to be in hospital; to be hospitalized,动 v.,动 v.,3,3
+990,字典,zìdiǎn,dictionary,名 n.,名 n.,3,3
+991,自行车,zìxíngchē,bicycle; bike,名 n.,名 n.,3,3
+992,子,zi,suffix; -zi,后缀 suff.,后缀 suff.,3,3
+993,总,zǒng,general; overall; to sum up,副 adv.; （动 v.; 形 adj.）,副 adv.,3,3（5）
+994,总是,zǒngshì,always,副 adv.,副 adv.,3,3
+995,嘴,zuǐ,mouth; beak; nozzle,名 n.,名 n.,3,3
+996,最好,zuìhǎo,best; had better,副 adv.,副 adv.,3,3
+997,最后,zuìhòu,final; last; finally,名 n.,名 n.,3,3
+998,最近,zuìjìn,recently; soon; nearest,名 n.,名 n.,3,3
+999,做客,zuòkè,to be a guest or visitor,动 v.,动 v.,3,3
+1000,作业,zuòyè,school assignment; homework; work,名 n.,名 n.,3,3
