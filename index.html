@@ -1,68 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>MandoFlash by Tang0</title>
+    <meta charset="UTF-8">
+    #adding to make app responsive
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANDOFLASH by Tang0</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>MandoFlash by Tang0</h1>
+    <h1>MANDOFLASH by Tang0</h1>
 
+    <div class="controls">
 
-<div class="controls">
+        <input id="search" placeholder="Search...">
 
-    <input id="search" placeholder="Search...">
+        <select id="levelFilter">
+            <option value="">All Levels</option>
+        </select>
 
-    <select id="levelFilter">
-        <option value="">All Levels</option>
-    </select>
+        <select id="posFilter">
+            <option value="">All Parts of Speech</option>
+        </select>
 
-<!-- filter not shownpart of spee -->
-    <select id="posFilter">
-        <option value="">All Parts of Speech</option>
-    </select>
+        <select id="sort">
+            <option value="">Sort</option>
+            <option value="number">Number</option>
+            <option value="chinese">Chinese</option>
+            <option value="pinyin">Pinyin</option>
+            <option value="english">English</option>
+            <option value="random">Random</option>
+        </select>
 
+    </div>
 
-    <select id="sort">
-        <option value="">Sort</option>
-        <option value="number">Number</option>
-        <option value="chinese">Chinese</option>
-        <option value="pinyin">Pinyin</option>
-        <option value="english">English</option>
-        <option value="random">Random</option>
-    </select>
+    <div id="card" class="card">
+        <div id="front" class="front"></div>
+        <div id="back" class="back hidden"></div>
+    </div>
 
-</div>
+    <div class="buttons">
+        <button id="prev">Previous</button>
+        <button id="flip">Flip</button>
+        <button id="random">Random</button>
+        <button id="next">Next</button>
+    </div>
 
+    <div id="counter"></div>
 
-<div id="card" class="card">
-
-    <div id="front" class="front"></div>
-
-    <div id="back" class="back hidden"></div>
-
-</div>
-
-
-<div class="buttons">
-
-<button id="prev">Previous</button>
-
-<button id="flip">Flip</button>
-
-<button id="random">Random</button>
-
-<button id="next">Next</button>
-
-</div>
-
-
-<div id="counter"></div>
-
-
-<script src="apps.js"></script>
+    <script src="apps.js"></script>
 
 </body>
 
