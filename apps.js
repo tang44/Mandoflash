@@ -257,53 +257,40 @@ function filterCards(){
 }
 
 
-
-
-
-function show(){
-
-
-    if(filtered.length===0){
-
-        front.innerHTML="No cards";
-
-        back.innerHTML="";
-
+function show() {
+    if (filtered.length === 0) {
+        front.textContent = "No cards";
+        back.innerHTML = "";
         return;
-
     }
 
+    const c = filtered[current];
 
+    front.textContent = c.Chinese;
 
-    let c=filtered[current];
+    back.innerHTML = `
+        <div class="card-title">
+            ${c.Chinese} ${c.Pinyin}
+        </div>
 
+        <hr>
 
+        <div class="card-section">
+            <h3>English</h3>
+            <div class="card-box english">
+                ${c.English}
+            </div>
+        </div>
 
-    front.innerHTML=c.Chinese;
-
-
-
-    back.innerHTML=`
-
-   <div style="color: red, align:center">
-    ${c.Chinese} ${c.Pinyin}
-    </div>
-    <hr>
-    <b style="color: MediumPurple;font-size: 30px;">English:</b> 
-    
-    <div style="border: 2px blue; padding: 10px; border-radius: 5px; background-color: #cabdee2a;font-size: 30px;color: black;">
-    ${c.English}
-</div>
-
-
-    <b style="color: gray;font-size: 30px;">Other info:</b>  <br>
-    <div style="border: 4px gray; padding: 10px; border-radius: 5px; background-color: #c4c1c11f;font-size: 30px;color: black;font-size: 30px;">
-    
-        Part of Speech: &nbsp;&nbsp; ${c["Part of Speech"]}<br> 
-        HSK Level(s): &nbsp;&nbsp; ${c.Levels}
-    </div>
-
+        <div class="card-section">
+            <h3>Other Information</h3>
+            <div class="card-box info">
+                <p><strong>Part of Speech:</strong> ${c["Part of Speech"]}</p>
+                <p><strong>HSK Level(s):</strong> ${c.Levels}</p>
+            </div>
+        </div>
     `;
+
 
 
 
