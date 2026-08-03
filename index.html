@@ -2,56 +2,451 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>MANDOFLASH by Tang0</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <h1>MANDOFLASH by Tang0</h1>
 
-    <div class="controls">
+<h1>MANDOFLASH by Tang0</h1>
 
-        <input id="search" placeholder="Search...">
 
-        <select id="levelFilter">
-            <option value="">All Levels</option>
-        </select>
 
-        <select id="posFilter">
-            <option value="">All Parts of Speech</option>
-        </select>
+<!-- =====================================================
+     TOP CONTROL PANEL
+     Database Filters | Study Mode
+===================================================== -->
 
-        <select id="sort">
-            <option value="">Sort</option>
-            <option value="number">Number</option>
-            <option value="chinese">Chinese</option>
-            <option value="pinyin">Pinyin</option>
-            <option value="english">English</option>
-            <option value="random">Random</option>
-        </select>
+
+<div class="control-panel">
+
+
+
+    <!-- ==========================
+         DATABASE FILTERS
+    =========================== -->
+
+
+    <div class="control-section">
+
+
+        <h3>
+            Database Filters
+            <span id="cardCount">
+            (0 cards)
+            </span>
+</h3>
+
+
+        <div class="controls">
+
+
+            <input 
+                id="search" 
+                placeholder="Search..."
+            >
+
+
+
+            <select id="levelFilter">
+
+                <option value="">
+                    All Levels
+                </option>
+
+            </select>
+
+
+
+            <select id="posFilter">
+
+                <option value="">
+                    All Parts of Speech
+                </option>
+
+            </select>
+
+
+
+            <select id="sort">
+
+                <option value="">
+                    Sort
+                </option>
+
+                <option value="number">
+                    Number
+                </option>
+
+                <option value="chinese">
+                    Chinese
+                </option>
+
+                <option value="pinyin">
+                    Pinyin
+                </option>
+
+                <option value="english">
+                    English
+                </option>
+
+                <option value="random">
+                    Random
+                </option>
+
+            </select>
+
+
+        </div>
+
+        
+    </div>
+
+
+
+
+
+    <!-- ==========================
+         STUDY MODE
+    =========================== -->
+
+
+    <div class="control-section">
+
+
+        <h3>
+            Study Mode
+        </h3>
+
+
+        <div class="controls">
+
+
+            <select id="mode">
+
+
+                <option value="flash">
+                    Flashcards
+                </option>
+
+
+                <option value="quiz">
+                    Quiz
+                </option>
+
+
+            </select>
+
+
+        </div>
+
 
     </div>
 
-    <div id="card" class="card">
-        <div id="front" class="front"></div>
-        <div id="back" class="back hidden"></div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- =====================================================
+     FLASHCARD DISPLAY
+===================================================== -->
+
+
+<div id="card" class="card">
+
+
+    <div id="front" class="front"></div>
+
+
+    <div id="back" class="back hidden"></div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- =====================================================
+     QUIZ AREA
+     Quiz Display + Quiz Settings Side by Side
+===================================================== -->
+
+
+<div id="quizLayout">
+
+
+
+
+
+    <!-- ==========================
+         QUIZ DISPLAY
+    =========================== -->
+
+
+    <div id="quiz" class="card hidden">
+
+
+
+        <!-- Question Counter + Score -->
+
+
+     
+
+
+
+
+
+        <!-- Question -->
+
+
+        <h2 id="question"></h2>
+
+
+
+
+
+        <!-- Answer Buttons -->
+
+
+        <div id="answers"></div>
+
+
+
+
+
+        <!-- Next Question -->
+
+
+        <button 
+            id="nextQuestion"
+            class="hidden"
+        >
+
+            Next Question
+
+        </button>
+
+
+
     </div>
 
-    <div class="buttons">
-        <button id="prev">Previous</button>
-        <button id="flip">Flip</button>
-        <button id="random">Random</button>
-        <button id="next">Next</button>
+
+
+
+
+
+
+
+
+    <!-- ==========================
+     QUIZ SETTINGS + STATUS
+     Appears only in Quiz Mode
+=========================== -->
+
+
+<div 
+    id="quizControls"
+    class="quizSettings hidden"
+>
+
+
+
+    <h3>
+        Quiz Settings
+    </h3>
+
+
+
+    <select id="quizDirection">
+
+
+        <option value="chineseToEnglish">
+
+            Chinese → English
+
+        </option>
+
+
+        <option value="englishToChinese">
+
+            English → Chinese
+
+        </option>
+
+
+    </select>
+
+
+
+
+
+    <select id="quizLength">
+
+
+        <option value="10">
+
+            10 Questions
+
+        </option>
+
+
+        <option value="20">
+
+            20 Questions
+
+        </option>
+
+
+        <option value="50">
+
+            50 Questions
+
+        </option>
+
+
+        <option value="all">
+
+            All Questions
+
+        </option>
+
+
+    </select>
+
+
+
+    
+
+
+
+
+
+    <!-- ==========================
+         QUIZ STATUS
+         Question + Score
+    =========================== -->
+
+    <h3>
+        <br>
+    <hr>
+    <br>
+        
+        Quiz Status
+    </h3>
+
+    <div class="quizStatus">
+        <div id="questionCounter">
+
+        </div>
+
+
+        <div id="scoreDisplay">
+
+            Score: 0/0
+
+        </div>
+
+
     </div>
 
+    <button id="resetQuiz">
+
+        Reset Quiz
+
+    </button>
+
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+     FLASHCARD BUTTONS
+===================================================== -->
+
+
+<div id="flashButtons" class="buttons">
+
+
+    <button id="prev">
+
+        Previous
+
+    </button>
+
+
+
+    <button id="flip">
+
+        Flip
+
+    </button>
+
+
+
+    <button id="random">
+
+        Random
+
+    </button>
+
+
+
+    <button id="next">
+
+        Next
+
+    </button>
     <div id="counter"></div>
 
-    <script src="apps.js"></script>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="apps.js"></script>
+
 
 </body>
+
 
 </html>
