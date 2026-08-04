@@ -3,13 +3,19 @@
 
 <head>
 
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
-    <title>MANDOFLASH by Tang0</title>
 
-    <link rel="stylesheet" href="style.css">
+<title>MANDOFLASH by Tang0</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="games.css">
+
 
 </head>
 
@@ -21,9 +27,9 @@
 
 
 
+
 <!-- =====================================================
-     TOP CONTROL PANEL
-     Database Filters | Study Mode
+     CONTROL PANEL
 ===================================================== -->
 
 
@@ -31,29 +37,30 @@
 
 
 
-    <!-- ==========================
-         DATABASE FILTERS
-    =========================== -->
-
-
     <div class="control-section">
 
 
         <h3>
+
             Database Filters
+
             <span id="cardCount">
-            (0 cards)
+                (0 cards)
             </span>
-</h3>
+
+        </h3>
+
 
 
         <div class="controls">
 
 
-            <input 
-                id="search" 
+
+            <input
+                id="search"
                 placeholder="Search..."
             >
+
 
 
 
@@ -67,6 +74,8 @@
 
 
 
+
+
             <select id="posFilter">
 
                 <option value="">
@@ -77,47 +86,52 @@
 
 
 
+
+
             <select id="sort">
+
 
                 <option value="">
                     Sort
                 </option>
 
+
                 <option value="number">
                     Number
                 </option>
+
 
                 <option value="chinese">
                     Chinese
                 </option>
 
+
                 <option value="pinyin">
                     Pinyin
                 </option>
+
 
                 <option value="english">
                     English
                 </option>
 
+
                 <option value="random">
                     Random
                 </option>
 
+
             </select>
+
 
 
         </div>
 
-        
+
     </div>
 
 
 
-
-
-    <!-- ==========================
-         STUDY MODE
-    =========================== -->
 
 
     <div class="control-section">
@@ -126,6 +140,8 @@
         <h3>
             Study Mode
         </h3>
+
+
 
 
         <div class="controls">
@@ -144,6 +160,12 @@
                 </option>
 
 
+                <option value="games">
+                    Mini Games
+                </option>
+
+
+
             </select>
 
 
@@ -162,19 +184,24 @@
 
 
 
-
 <!-- =====================================================
-     FLASHCARD DISPLAY
+     FLASHCARD
 ===================================================== -->
 
 
-<div id="card" class="card">
+<div id="card"
+     class="card">
 
 
-    <div id="front" class="front"></div>
+    <div id="front"
+         class="front">
+    </div>
 
 
-    <div id="back" class="back hidden"></div>
+
+    <div id="back"
+         class="back hidden">
+    </div>
 
 
 </div>
@@ -185,10 +212,8 @@
 
 
 
-
 <!-- =====================================================
-     QUIZ AREA
-     Quiz Display + Quiz Settings Side by Side
+     QUIZ LAYOUT
 ===================================================== -->
 
 
@@ -196,51 +221,21 @@
 
 
 
+    <div id="quiz"
+         class="card hidden">
 
-
-    <!-- ==========================
-         QUIZ DISPLAY
-    =========================== -->
-
-
-    <div id="quiz" class="card hidden">
-
-
-
-        <!-- Question Counter + Score -->
-
-
-     
-
-
-
-
-
-        <!-- Question -->
 
 
         <h2 id="question"></h2>
 
 
 
-
-
-        <!-- Answer Buttons -->
-
-
-        <div id="answers"></div>
+        <div id="answers">
+        </div>
 
 
 
-
-
-        <!-- Next Question -->
-
-
-        <button 
-            id="nextQuestion"
-            class="hidden"
-        >
+        <button id="nextQuestion">
 
             Next Question
 
@@ -254,130 +249,325 @@
 
 
 
+    <div id="quizControls"
+         class="quizSettings hidden">
+
+
+
+        <h3>
+            Quiz Settings
+        </h3>
 
 
 
 
-    <!-- ==========================
-     QUIZ SETTINGS + STATUS
-     Appears only in Quiz Mode
-=========================== -->
+        <select id="quizDirection">
 
 
-<div 
-    id="quizControls"
-    class="quizSettings hidden"
->
+            <option value="chineseToEnglish">
 
+                Chinese → English
 
-
-    <h3>
-        Quiz Settings
-    </h3>
+            </option>
 
 
 
-    <select id="quizDirection">
+            <option value="englishToChinese">
+
+                English → Chinese
+
+            </option>
 
 
-        <option value="chineseToEnglish">
 
-            Chinese → English
-
-        </option>
-
-
-        <option value="englishToChinese">
-
-            English → Chinese
-
-        </option>
-
-
-    </select>
+        </select>
 
 
 
 
 
-    <select id="quizLength">
+        <select id="quizLength">
 
 
-        <option value="10">
-
-            10 Questions
-
-        </option>
+            <option value="10">
+                10 Questions
+            </option>
 
 
-        <option value="20">
-
-            20 Questions
-
-        </option>
+            <option value="20">
+                20 Questions
+            </option>
 
 
-        <option value="50">
-
-            50 Questions
-
-        </option>
+            <option value="50">
+                50 Questions
+            </option>
 
 
-        <option value="all">
-
-            All Questions
-
-        </option>
-
-
-    </select>
+            <option value="all">
+                All Questions
+            </option>
 
 
 
-    
+        </select>
 
 
 
 
+        <hr>
 
-    <!-- ==========================
-         QUIZ STATUS
-         Question + Score
-    =========================== -->
 
-    <h3>
-        <br>
-    <hr>
-    <br>
-        
-        Quiz Status
-    </h3>
 
-    <div class="quizStatus">
-        <div id="questionCounter">
+
+        <h3>
+            Quiz Status
+        </h3>
+
+
+
+        <div class="quizStatus">
+
+
+            <div id="questionCounter">
+            </div>
+
+
+            <div id="scoreDisplay">
+
+                Score: 0/0
+
+            </div>
+
 
         </div>
 
 
-        <div id="scoreDisplay">
 
-            Score: 0/0
+        <button id="resetQuiz">
 
-        </div>
+            Reset Quiz
+
+        </button>
+
 
 
     </div>
 
-    <button id="resetQuiz">
-
-        Reset Quiz
-
-    </button>
-
-    
 
 
+</div>
+
+<!-- =====================================================
+     GAME LAYOUT
+===================================================== -->
+
+
+<div id="gameLayout">
+
+
+
+
+
+    <!-- ==========================
+         GAME DISPLAY
+    =========================== -->
+
+
+    <div id="gameArea"
+         class="card hidden">
+
+
+
+
+
+        <h2 id="gameTitle">
+
+            Mini Game
+
+        </h2>
+
+
+
+
+
+        <div id="gamePrompt"
+             class="quizPrompt">
+
+        </div>
+
+
+
+
+
+        <div id="gameAnswers">
+
+        </div>
+
+
+
+
+
+
+
+        <!-- TYPING GAME -->
+
+
+        <div id="typingArea"
+             class="hidden">
+
+
+            <input
+                id="typingInput"
+                placeholder="Type your answer..."
+                autocomplete="off"
+            >
+
+
+
+            <button id="submitTyping">
+
+                Submit
+
+            </button>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <!-- BOSS GAME -->
+
+
+        <div id="bossArea"
+             class="hidden">
+
+
+            <h2>
+
+                🐉 Boss
+
+            </h2>
+
+
+
+
+            <progress
+                id="bossHealth"
+                value="100"
+                max="100">
+            </progress>
+
+
+
+
+
+            <div id="bossHP">
+
+                100 / 100 HP
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- ==========================
+         GAME STATUS PANEL
+    =========================== -->
+
+
+    <div id="gameControls"
+         class="quizSettings hidden">
+
+
+
+
+
+        <h3>
+
+            Mini Games
+
+        </h3>
+
+
+
+
+
+        <select id="gameMode">
+
+
+
+            <option value="speed">
+
+                ⚡ Speed Round
+
+            </option>
+
+
+
+
+            <option value="survival">
+
+                ❤️ Survival
+
+            </option>
+
+
+            <option value="boss">
+
+                🐉 Boss Battle
+
+            </option>
+
+            <option value="streak">
+
+                🔥 Streak Challenge
+
+            </option>
+
+
+
+
+            <option value="typing">
+
+                ⌨️ Typing Practice
+
+            </option>
+
+
+
+
+            
+
+
+
+
+        </select>
+
+        <div id="gameDescription"
+     class="game-description">
+
+    ⚡ Answer as many questions as possible before time runs out.
 
 </div>
 
@@ -387,14 +577,139 @@
 
 
 
+        <hr>
 
+
+
+
+
+
+
+        <h3>
+
+            Game Status
+
+        </h3>
+
+
+
+
+
+
+
+        <div class="quizStatus">
+
+
+
+
+
+            <!-- ALWAYS DISPLAYED -->
+
+
+            <div id="gameStatus">
+
+                Ready
+
+            </div>
+
+
+
+
+
+            <div id="gameScore">
+
+                Score: 0
+
+            </div>
+
+
+
+
+
+
+
+            <!-- SPEED ONLY -->
+
+
+            <div id="gameTimer"
+                 class="hidden">
+
+                ⏱ --
+
+            </div>
+
+
+
+
+
+
+
+            <!-- SURVIVAL ONLY -->
+
+
+            <div id="gameLives"
+                 class="hidden">
+
+                ❤️❤️❤️
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- STREAK / TYPING ONLY -->
+
+
+            <div id="gameCombo"
+                 class="hidden">
+
+                🔥 0
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <button id="startGame">
+
+            Start Game
+
+        </button>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
 
 <!-- =====================================================
      FLASHCARD BUTTONS
 ===================================================== -->
 
 
-<div id="flashButtons" class="buttons">
+<div id="flashButtons"
+     class="buttons">
+
 
 
     <button id="prev">
@@ -402,6 +717,8 @@
         Previous
 
     </button>
+
+
 
 
 
@@ -413,6 +730,8 @@
 
 
 
+
+
     <button id="random">
 
         Random
@@ -421,12 +740,22 @@
 
 
 
+
+
     <button id="next">
 
         Next
 
     </button>
-    <div id="counter"></div>
+
+
+
+
+
+    <div id="counter">
+
+    </div>
+
 
 
 </div>
@@ -437,16 +766,23 @@
 
 
 
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
 
 
-
-
-
+<script src="data.js"></script>
 
 <script src="apps.js"></script>
 
+<script src="quiz.js"></script>
+
+<script src="games.js"></script>
+
+
+
+
 
 </body>
-
 
 </html>
