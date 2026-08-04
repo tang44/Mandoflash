@@ -214,7 +214,67 @@ select {
     max-width:var(--card-width);
 }
 
+/* ==========================
+   GAME LAYOUT
+========================== */
 
+
+#gameLayout {
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:stretch;
+
+    gap:20px;
+
+    width:min(100%,1000px);
+
+    margin:10px auto;
+
+}
+
+
+
+#gameArea {
+
+    width:min(100%,800px);
+
+}
+
+
+
+
+/* ==========================
+   GAME RESPONSIVE
+========================== */
+
+
+@media(max-width:900px){
+
+
+    #gameLayout {
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+
+    #gameControls {
+
+        width:100%;
+
+        max-width:400px;
+
+        min-height:320px;
+
+    }
+
+
+}
 
 /* ==========================
    Quiz Settings Panel
