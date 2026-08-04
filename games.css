@@ -1,0 +1,529 @@
+/* =====================================================
+   GAMES.CSS
+   MANDOFLASH Mini Games
+===================================================== */
+
+/* ==========================
+   Game Card
+========================== */
+
+#gameArea {
+
+    width:min(100%, 800px);
+
+    margin:20px auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:25px;
+
+    text-align:center;
+
+}
+
+
+/* ==========================
+   Title
+========================== */
+
+#gameTitle {
+
+    margin:0;
+
+    color:mediumpurple;
+
+    font-size:2rem;
+
+}
+
+
+/* ==========================
+   Prompt
+========================== */
+
+#gamePrompt {
+
+    font-size:clamp(3rem,9vw,6rem);
+
+    color:red;
+
+    font-weight:bold;
+
+    line-height:1.25;
+
+    min-height:110px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+/* ==========================
+   Answer Buttons
+========================== */
+
+#gameAnswers {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    width:100%;
+
+}
+
+
+#gameAnswers button {
+
+    width:100%;
+
+    font-size:1.3rem;
+
+    padding:15px;
+
+}
+
+
+/* ==========================
+   Typing Practice
+========================== */
+
+#typingArea {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    width:100%;
+
+    max-width:450px;
+
+}
+
+
+#typingInput {
+
+    padding:15px;
+
+    font-size:1.4rem;
+
+    text-align:center;
+
+}
+
+
+/* ==========================
+   Boss Battle
+========================== */
+
+#bossArea {
+
+    width:100%;
+
+    max-width:500px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    align-items:center;
+
+}
+
+
+#bossArea h2 {
+
+    margin:0;
+
+    font-size:2rem;
+
+}
+
+
+#bossHealth {
+
+    width:100%;
+
+    height:28px;
+
+}
+
+
+#bossHP {
+
+    font-size:1.2rem;
+
+    font-weight:bold;
+
+    color:#444;
+
+}
+
+
+/* ==========================
+   Game Status Panel
+========================== */
+
+#gameStatus,
+#gameScore,
+#gameTimer,
+#gameLives,
+#gameCombo {
+
+    width:100%;
+
+    text-align:center;
+
+    font-size:1.2rem;
+
+    font-weight:bold;
+
+}
+
+
+#gameTimer {
+
+    color:#2563eb;
+
+}
+
+
+#gameLives {
+
+    color:#dc2626;
+
+    font-size:1.5rem;
+
+}
+
+
+#gameCombo {
+
+    color:#f97316;
+
+    font-size:1.4rem;
+
+}
+
+/* ==========================
+   Game Description
+========================== */
+
+.game-description {
+
+    width:100%;
+
+    padding:10px;
+
+    margin-top:10px;
+
+    background:#f3f4f6;
+
+    border-radius:8px;
+
+    color:#555;
+
+    font-size:.95rem;
+
+    line-height:1.4;
+
+    text-align:center;
+
+}
+
+/* ==========================
+   Game Status Visibility
+========================== */
+
+.gameStat {
+    display:block;
+}
+
+
+.gameStat.hidden {
+    display:none !important;
+}
+
+/* ==========================
+   Speed Timer
+========================== */
+
+.timer-warning {
+
+    color:#dc2626 !important;
+
+    animation:pulse .8s infinite;
+
+}
+
+
+@keyframes pulse {
+
+    0% {
+
+        transform:scale(1);
+
+    }
+
+    50% {
+
+        transform:scale(1.15);
+
+    }
+
+    100% {
+
+        transform:scale(1);
+
+    }
+
+}
+
+
+/* ==========================
+   Correct / Wrong Effects
+========================== */
+
+.game-correct {
+
+    background:#16a34a !important;
+
+    color:white;
+
+}
+
+
+.game-wrong {
+
+    background:#dc2626 !important;
+
+    color:white;
+
+}
+
+
+/* ==========================
+   Combo Display
+========================== */
+
+.combo-pop {
+
+    animation:comboPop .3s ease;
+
+}
+
+
+@keyframes comboPop {
+
+    0% {
+
+        transform:scale(.8);
+
+    }
+
+    50% {
+
+        transform:scale(1.25);
+
+    }
+
+    100% {
+
+        transform:scale(1);
+
+    }
+
+}
+
+
+/* ==========================
+   Boss Shake
+========================== */
+
+.boss-hit {
+
+    animation:bossShake .3s;
+
+}
+
+
+@keyframes bossShake {
+
+    0% {
+
+        transform:translateX(0);
+
+    }
+
+    20% {
+
+        transform:translateX(-8px);
+
+    }
+
+    40% {
+
+        transform:translateX(8px);
+
+    }
+
+    60% {
+
+        transform:translateX(-6px);
+
+    }
+
+    80% {
+
+        transform:translateX(6px);
+
+    }
+
+    100% {
+
+        transform:translateX(0);
+
+    }
+
+}
+
+
+/* ==========================
+   Victory Animation
+========================== */
+
+.game-win {
+
+    color:#16a34a;
+
+    animation:celebrate .8s infinite alternate;
+
+}
+
+
+@keyframes celebrate {
+
+    from {
+
+        transform:scale(1);
+
+    }
+
+    to {
+
+        transform:scale(1.08);
+
+    }
+
+}
+
+
+/* ==========================
+   Game Over
+========================== */
+
+.game-over {
+
+    color:#dc2626;
+
+    font-size:2rem;
+
+    font-weight:bold;
+
+}
+
+
+/* ==========================
+   Start Button
+========================== */
+
+#startGame {
+
+    width:100%;
+
+}
+
+
+/* ==========================
+   Progress Bars
+========================== */
+
+progress {
+
+    appearance:none;
+
+    border:none;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+
+progress::-webkit-progress-bar {
+
+    background:#e5e7eb;
+
+}
+
+
+progress::-webkit-progress-value {
+
+    background:linear-gradient(
+        90deg,
+        #ef4444,
+        #f97316
+    );
+
+}
+
+
+progress::-moz-progress-bar {
+
+    background:#ef4444;
+
+}
+
+
+/* ==========================
+   Responsive
+========================== */
+
+@media (max-width:700px) {
+
+    #gamePrompt {
+
+        font-size:3rem;
+
+    }
+
+    #gameAnswers button {
+
+        font-size:1.1rem;
+
+    }
+
+    #typingInput {
+
+        font-size:1.2rem;
+
+    }
+
+}
