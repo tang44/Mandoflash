@@ -257,24 +257,24 @@ function populateFilters(){
 
 
     const levels =
-        [
-            ...new Set(
-                cards.map(
-                    c=>c.Level
-                )
-            )
-        ];
+[
+    ...new Set(
+        cards
+        .map(c => c.Level?.trim())
+        .filter(x => x && /^[0-9]+$/.test(x))
+    )
+];
 
 
 
     const parts =
-        [
-            ...new Set(
-                cards.map(
-                    c=>c["First PoS"]
-                )
-            )
-        ];
+[
+    ...new Set(
+        cards
+        .map(c => c["First PoS"]?.trim())
+        .filter(x => x && x.length < 20)
+    )
+];
 
 
 
@@ -353,6 +353,8 @@ function filterCards(){
         ||
         "";
 
+  
+
 
 
 
@@ -375,13 +377,17 @@ function filterCards(){
 
                 &&
 
+                // (!level ||
+                // card.Level===level)
                 (!level ||
-                card.Level===level)
+                    card.Level?.trim()===level)
 
                 &&
 
+                // (!pos ||
+                // card["First PoS"]===pos)
                 (!pos ||
-                card["First PoS"]===pos)
+                    card["First PoS"]?.trim()===pos)
 
             );
 
@@ -401,10 +407,66 @@ function filterCards(){
         filtered.length
     );
 
-
+    if(typeof showFlashcard === "function"){
+    showFlashcard();
 }
 
 
+}
+
+// =====================================================
+// FILTER EVENTS
+// =====================================================
+
+function setupFilterEvents(){
+
+    const search = document.getElementById("search");
+    const level = document.getElementById("levelFilter");
+    const pos = document.getElementById("posFilter");
+    const sort = document.getElementById("sort");
+
+
+    if(search){
+        search.addEventListener(
+            "input",
+            filterCards
+        );
+    }
+
+
+    if(level){
+        level.addEventListener(
+            "change",
+            filterCards
+        );
+    }
+
+
+    if(pos){
+        pos.addEventListener(
+            "change",
+            filterCards
+        );
+    }
+
+
+    if(sort){
+        sort.addEventListener(
+            "change",
+            function(){
+
+                sortCards(this.value);
+                updateCardCount();
+
+                if(typeof showFlashcard === "function"){
+                    showFlashcard();
+                }
+
+            }
+        );
+    }
+
+}
 
 
 // =====================================================
@@ -714,5 +776,10 @@ function updateCardCount(){
 
 window.addEventListener(
     "load",
-    loadCSV
+    function(){
+
+        setupFilterEvents();
+        loadCSV();
+
+    }
 );
