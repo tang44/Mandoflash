@@ -10,6 +10,12 @@
 
 let cards = [];
 
+let readingCards = [];
+
+let vocabLookup = {};
+
+let activeDeck = [];
+
 let filtered = [];
 
 let current = 0;
@@ -26,7 +32,11 @@ async function loadCSV(){
 
         const response =
             await fetch(
-                "hsk1to3_cards.csv"
+                "HSK_1to4_combined_from_CLI.csv"
+
+                //HSK_1to4_combined_from_CLI.csv
+                //HSK_1to4_cards.csv
+                //HSK_1to4_combined.csv
             );
 
 
@@ -56,15 +66,32 @@ async function loadCSV(){
 
 
 
-        cards =
-            csvToObjects(text);
+        cards = csvToObjects(text);
+
+        cards.forEach(card => {
+
+            vocabLookup[card.Hanzi] = {
+
+                Pinyin: card.Pinyin,
+                English: card.English,
+                Level: card.Levels,
+                Number: card["#"]
+
+            };
+
+        });
 
 
+        buildReadingCards();
 
-        filtered =
-            [...cards];
+        // Start app on vocabulary flashcards
+        activeDeck = cards;
 
+        filtered = [...activeDeck];
 
+        filterCards();
+        
+        
 
         console.log(
             "Cards loaded:",
@@ -211,7 +238,53 @@ function csvToObjects(text){
 
 }
 
+// =====================================================
+// BUILD READING DATABASE
+// =====================================================
 
+function buildReadingCards(){
+
+    readingCards = [];
+
+    cards.forEach(card => {
+
+        [
+            [card.example1_chinese, card.example1_pinyin, card.example1_english],
+            [card.example2_chinese, card.example2_pinyin, card.example2_english],
+            [card.example3_chinese, card.example3_pinyin, card.example3_english]
+
+        ].forEach(example => {
+
+            const [hanzi, pinyin, english] = example;
+
+            if(!hanzi || !hanzi.trim())
+                return;
+
+            readingCards.push({
+
+                Hanzi: hanzi,
+                Pinyin: pinyin,
+                English: english,
+
+                Level: card.Level,
+                Levels: card.Levels,
+
+                // original vocabulary reference
+                Word: card.Hanzi,
+                Ref: card.Number
+
+            });
+
+        });
+
+    });
+
+    console.log(
+        "Reading cards:",
+        readingCards.length
+    );
+
+}
 
 
 // =====================================================
@@ -359,7 +432,7 @@ function filterCards(){
 
 
     filtered =
-        cards.filter(card=>{
+        activeDeck.filter(card=>{
 
 
             const text =
@@ -410,6 +483,13 @@ function filterCards(){
     if(typeof showFlashcard === "function"){
     showFlashcard();
 }
+
+    if(mode === "reading"){
+        showReadingFlashcard();
+    }
+    else{
+        showFlashcard();
+    }
 
 
 }
@@ -489,12 +569,12 @@ function sortCards(type){
 
 
 
-    if(type==="chinese"){
+    if(type==="Hanzi"){
 
         filtered.sort(
             (a,b)=>
-            a.Chinese.localeCompare(
-                b.Chinese
+            a.Hanzi.localeCompare(
+                b.Hanzi
             )
         );
 
@@ -612,11 +692,11 @@ function getPrompt(
     direction
 ){
 
-    return direction==="chineseToEnglish"
+    return direction==="HanziToEnglish"
 
         ?
 
-        card.Chinese
+        card.Hanzi
 
         :
 
@@ -634,7 +714,7 @@ function getAnswer(
     direction
 ){
 
-    return direction==="chineseToEnglish"
+    return direction==="HanziToEnglish"
 
         ?
 
@@ -642,7 +722,7 @@ function getAnswer(
 
         :
 
-        card.Chinese;
+        card.Hanzi;
 
 
 }

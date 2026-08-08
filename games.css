@@ -7,11 +7,11 @@
    Game Card
 ========================== */
 
-#gameArea {
+#gameArea, #typingArea {
 
-    width:min(100%, 800px);
+    /* width:min(100%, 800px); */
 
-    margin:20px auto;
+    margin: 0;
 
     display:flex;
 
@@ -21,7 +21,7 @@
 
     align-items:center;
 
-    gap:25px;
+    /* gap:25px; */
 
     text-align:center;
 
@@ -89,7 +89,7 @@
 
     width:100%;
 
-    font-size:1.3rem;
+    font: size 1.5em;
 
     padding:15px;
 
@@ -99,21 +99,6 @@
 /* ==========================
    Typing Practice
 ========================== */
-
-#typingArea {
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:15px;
-
-    width:100%;
-
-    max-width:450px;
-
-}
-
 
 #typingInput {
 
@@ -466,7 +451,7 @@
 
 progress {
 
-    appearance:none;
+    
 
     border:none;
 
@@ -474,6 +459,12 @@ progress {
 
     overflow:hidden;
 
+}
+#bossHealth{
+    appearance:none;
+}
+.game-card progress{
+    appearance:none;
 }
 
 

@@ -740,7 +740,7 @@ function nextGameQuestion(){
 
         getPrompt(
             gameCard,
-            "chineseToEnglish"
+            "HanziToEnglish"
         );
 
 
@@ -763,7 +763,7 @@ function showGameChoices(){
 
         generateOptions(
             gameCard,
-            "chineseToEnglish"
+            "HanziToEnglish"
         );
 
 
@@ -1098,7 +1098,7 @@ function processGameAnswer(choice){
 
         getAnswer(
             gameCard,
-            "chineseToEnglish"
+            "HanziToEnglish"
         );
 
 
@@ -1320,7 +1320,7 @@ function processBossAnswer(choice){
 
         getAnswer(
             gameCard,
-            "chineseToEnglish"
+            "HanziToEnglish"
         );
 
 
@@ -1619,7 +1619,7 @@ function nextTypingQuestion(){
     if(gameCard){
 
         gamePrompt.textContent =
-            gameCard.Chinese;
+            gameCard.Hanzi;
 
     }
 

@@ -101,8 +101,8 @@
                 </option>
 
 
-                <option value="chinese">
-                    Chinese
+                <option value="Hanzi">
+                    Hanzi
                 </option>
 
 
@@ -154,6 +154,10 @@
                     Flashcards
                 </option>
 
+                <option value="reading">
+                    Reading
+                </option>
+
 
                 <option value="quiz">
                     Quiz
@@ -190,7 +194,7 @@
 
 
 <div id="card"
-     class="card">
+     class="card flash-card">
 
 
     <div id="front"
@@ -222,7 +226,7 @@
 
 
     <div id="quiz"
-         class="card hidden">
+        class="card quiz-card hidden">
 
 
 
@@ -255,7 +259,10 @@
 
 
         <h3>
+            <br>
+            
             Quiz Settings
+            
         </h3>
 
 
@@ -264,17 +271,17 @@
         <select id="quizDirection">
 
 
-            <option value="chineseToEnglish">
+            <option value="HanziToEnglish">
 
-                Chinese → English
+                Hanzi → English
 
             </option>
 
 
 
-            <option value="englishToChinese">
+            <option value="englishToHanzi">
 
-                English → Chinese
+                English → Hanzi
 
             </option>
 
@@ -313,15 +320,12 @@
         </select>
 
 
-
-
-        <hr>
-
-
-
-
         <h3>
+            <br>
+            <hr>
+            <br>
             Quiz Status
+            
         </h3>
 
 
@@ -349,6 +353,7 @@
             Reset Quiz
 
         </button>
+        <br>
 
 
 
@@ -375,7 +380,7 @@
 
 
     <div id="gameArea"
-         class="card hidden">
+        class="card game-card hidden">
 
 
 
@@ -769,7 +774,7 @@
 <!-- =====================================================
      JAVASCRIPT
 ===================================================== -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 
 <script src="data.js"></script>
 

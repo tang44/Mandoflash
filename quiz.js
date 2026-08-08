@@ -8,7 +8,7 @@
 // QUIZ SETTINGS
 // =====================================================
 
-let quizDirection = "chineseToEnglish";
+let quizDirection = "HanziToEnglish";
 let quizLength = 10;
 
 
@@ -308,8 +308,8 @@ function showQuiz(){
 
         // store card data
 
-        button.dataset.chinese =
-            option.card.Chinese;
+        button.dataset.Hanzi =
+            option.card.Hanzi;
 
 
         button.dataset.pinyin =
@@ -414,7 +414,7 @@ function checkAnswer(
                 <br>
 
 
-                ${button.dataset.chinese}
+                ${button.dataset.Hanzi}
 
                 ${button.dataset.pinyin}
 

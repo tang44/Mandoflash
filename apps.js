@@ -80,14 +80,29 @@ function updateModeUI(){
 
         case "flash":
 
+            activeDeck = cards;
+
+            current = 0;
+
+            filterCards();
+
             card.classList.remove("hidden");
-
             flashButtons.classList.remove("hidden");
-
-            showFlashcard();
 
             break;
 
+        case "reading":
+
+            activeDeck = readingCards;
+
+            current = 0;
+
+            filterCards();
+
+            card.classList.remove("hidden");
+            flashButtons.classList.remove("hidden");
+
+            break;
 
         case "quiz":
 
@@ -117,6 +132,17 @@ function updateModeUI(){
 // FLASHCARD DISPLAY
 // =====================================================
 
+function highlightTarget(text, target) {
+
+    if (!text) return "";
+
+    return text.replaceAll(
+        target,
+        `<span class="target-hanzi">${target}</span>`
+    );
+
+}
+
 function showFlashcard(){
 
     if(filtered.length===0){
@@ -136,60 +162,66 @@ function showFlashcard(){
 
 
     front.textContent =
-        c.Chinese;
+        c.Hanzi;
 
 
     back.innerHTML = `
+    <div class="card-title">
+        ${c.Hanzi} ${c.Pinyin}
+    </div>
 
-        <div class="card-title">
+    <hr>
 
-            ${c.Chinese}
+    <div class="back-layout">
 
-            ${c.Pinyin}
+        <div class="left-column">
 
-        </div>
+            <div class="card-section">
+                <h3>English</h3>
 
-        <hr>
+                <div class="card-box english">
+                    ${c.English}
+                </div>
 
-        <div class="card-section">
+                <div class="english-meta">
+                    <strong>Part of Speech:</strong> ${c["Part of Speech"]}&nbsp&nbsp
+                    <strong>HSK:</strong> ${c.Levels}
+                </div>
 
-            <h3>English</h3>
-
-            <div class="card-box english">
-
-                ${c.English}
-
-            </div>
-
-        </div>
-
-        <div class="card-section">
-
-            <h3>Other Information</h3>
-
-            <div class="card-box info">
-
-                <p>
-
-                    <strong>Part of Speech:</strong>
-
-                    ${c["Part of Speech"]}
-
-                </p>
-
-                <p>
-
-                    <strong>HSK Level(s):</strong>
-
-                    ${c.Levels}
-
-                </p>
 
             </div>
+        <div class="card-section">
 
+    <h3>Examples</h3>
+
+    <div class="examples-grid">
+
+        <div class="example-card">
+            ${highlightTarget(c.example1_chinese, c.Hanzi)}<br>
+            ${c.example1_pinyin}<br><br>
+            ${c.example1_english}
         </div>
 
-    `;
+        <div class="example-card">
+            ${highlightTarget(c.example2_chinese, c.Hanzi)}<br>
+            ${c.example2_pinyin}<br><br>
+            ${c.example2_english}
+        </div>
+
+        <div class="example-card">
+            ${highlightTarget(c.example3_chinese, c.Hanzi)}<br>
+            ${c.example3_pinyin}<br><br>
+            ${c.example3_english}
+        </div>
+
+    </div>
+</div>
+
+            
+
+        </div>
+    </div>
+`;
 
 
     showingFront=true;
@@ -204,6 +236,210 @@ function showFlashcard(){
 
 }
 
+
+function makeClickableHanzi(text){
+
+    let result = "";
+
+    let i = 0;
+
+
+    while(i < text.length){
+
+        let found = false;
+
+
+        // Try longest words first
+        for(let length = 4; length >= 1; length--){
+
+            let part =
+                text.substring(i,i+length);
+
+
+            if(vocabLookup[part]){
+
+                const vocab =
+                    vocabLookup[part];
+
+
+                result += `
+
+                <span 
+                    class="hanzi-hover"
+                    data-pinyin="${vocab.Pinyin}"
+                    data-english="${vocab.English}">
+                   
+                    
+
+                    ${part}
+
+                </span>
+
+                `;
+
+
+                i += length;
+
+                found = true;
+
+                break;
+
+            }
+
+        }
+
+
+                if(!found){
+
+                    const char = text[i];
+
+
+                    // Ignore punctuation styling
+                    if(/[，。！？、；：,.!?]/.test(char)){
+
+                        result += `
+                        <span class="hanzi-punctuation">
+                            ${char}
+                        </span>
+                        `;
+
+                        i++;
+                        continue;
+
+                    }
+
+
+                    const vocab =
+                        vocabLookup[char];
+
+
+                    if(vocab){
+
+                        result += `
+                        <span 
+                            class="hanzi-hover"
+                            data-pinyin="${vocab.Pinyin}"
+                            data-english="${vocab.English}">
+
+                            ${char}
+
+                        </span>
+                        `;
+
+                    }
+                    else {
+
+                        result += `
+                        <span class="hanzi-missing">
+                            ${char}
+                        </span>
+                        `;
+
+                    }
+
+
+                    i++;
+
+                }
+
+    }
+
+
+    return result;
+
+}
+
+function showReadingFlashcard(){
+
+    if(filtered.length === 0){
+
+        front.textContent = "No cards";
+        back.innerHTML = "";
+        counter.textContent = "0 / 0";
+        return;
+
+    }
+
+    const c = filtered[current];
+
+    
+
+
+    back.innerHTML = `
+    <div class="reading-back">
+
+        <div class="reading-title">
+            ${makeClickableHanzi(c.Hanzi)}
+    </div>
+
+
+    <hr>
+
+
+    <div 
+        class="reading-answer hidden"
+        id="readingAnswer"
+    >
+
+        <div class="card-box">
+            
+
+
+        <span class="reading-pinyin">
+            ${c.Pinyin}
+            </span>
+
+            
+
+            <span class="reading-english">
+                ${c.English}
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <button id="showReadingAnswer">
+
+        Show Pinyin + English
+
+    </button>
+
+    <div class="reading-ref">
+    Ref: ${c.Word} | HSK ${c.Level} | #${c.Ref}
+</div>
+
+    </div>
+
+
+    `;
+
+
+    document
+    .getElementById("showReadingAnswer")
+    .onclick = function(event){
+
+        event.stopPropagation();
+
+        document
+        .getElementById("readingAnswer")
+        .classList.toggle("hidden");
+
+    };
+
+
+    
+    // Reading cards always show the back
+
+    front.classList.add("hidden");
+    back.classList.remove("hidden");
+
+
+    counter.textContent =
+        `${current+1} / ${filtered.length}`;
+
+}
 
 // =====================================================
 // FLIP CARD
@@ -234,7 +470,10 @@ function nextCard(){
     if(current>=filtered.length)
         current=0;
 
-    showFlashcard();
+    if(mode === "reading")
+    showReadingFlashcard();
+    else
+        showFlashcard();
 
 }
 
@@ -253,7 +492,10 @@ function previousCard(){
     if(current<0)
         current=filtered.length-1;
 
-    showFlashcard();
+    if(mode === "reading")
+    showReadingFlashcard();
+    else
+        showFlashcard();
 
 }
 
@@ -272,7 +514,10 @@ function randomFlashcard(){
             Math.random()*filtered.length
         );
 
-    showFlashcard();
+    if(mode === "reading")
+    showReadingFlashcard();
+    else
+        showFlashcard();
 
 }
 
@@ -296,7 +541,17 @@ document
 // FLASHCARD EVENTS
 // =====================================================
 
-card.onclick=flipCard;
+// card.onclick=flipCard;
+
+card.onclick = function(){
+
+    if(mode === "reading"){
+        return;
+    }
+
+    flipCard();
+
+};
 
 document
 .getElementById("flip")
@@ -316,3 +571,4 @@ document
 document
 .getElementById("random")
 .onclick=randomFlashcard;
+
